@@ -157,3 +157,17 @@ main {
     font-size: 14px;
     color: #b5b5b5;
   }
+  
+  @media screen and (max-width: 900px) {
+    .contenido{
+      border-radius: 1% 1% 0 0;
+     }
+    
+      main .contenedor {
+        flex-direction: column;
+      }
+      aside {
+        position: static;
+        margin: 40px 0 0 0;
+      }
+  }

@@ -358,3 +358,126 @@ strong .barra1{
     transform: translateY(200%);
   }
   
+  @media screen and (max-width: 900px) {
+    .grafico{
+      width: 80%;
+    }
+    .grafico1{
+      width: 80%;
+    }
+    .grafico2{
+      width: 80%;
+    }
+    .grafico3{
+      width: 80%;
+    }
+    .grafico4{
+      width: 80%;
+    }
+    .grafico5{
+      width: 80%;
+    }
+    .grafico6{
+      width: 80%;
+    }
+    .grafico7{
+      width: 80%;
+    }
+    .grafico8{
+      width: 80%;
+    }
+    .grafico9{
+      width: 80%;
+    }
+    .grafico10{
+      width: 80%;
+    }
+  
+    .card {
+      overflow: scroll;
+    
+    }
+
+    .card-hidden {
+      overflow-y: scroll;
+      width: 150%;
+    }
+    .myInfo {
+      font-size: small;
+      max-width: 100%;
+    }
+ 
+    .navbar .contenedor {
+      flex-wrap: wrap;
+      margin: 0;
+      width: 100%;
+    }
+  
+    .navbar a {
+      width: auto;
+      flex: 1;
+    }
+ 
+  }
+
+   @media screen and (max-width: 900px) {
+    .grafico{
+      width: 80%;
+    }
+    .grafico1{
+      width: 80%;
+    }
+    .grafico2{
+      width: 80%;
+    }
+    .grafico3{
+      width: 80%;
+    }
+    .grafico4{
+      width: 80%;
+    }
+    .grafico5{
+      width: 80%;
+    }
+    .grafico6{
+      width: 80%;
+    }
+    .grafico7{
+      width: 80%;
+    }
+    .grafico8{
+      width: 80%;
+    }
+    .grafico9{
+      width: 80%;
+    }
+    .grafico10{
+      width: 80%;
+    }
+  
+    .card {
+      overflow: scroll;
+    
+    }
+
+    .card-hidden {
+      overflow-y: scroll;
+      width: 150%;
+    }
+    .myInfo {
+      font-size: small;
+      max-width: 100%;
+    }
+ 
+    .navbar .contenedor {
+      flex-wrap: wrap;
+      margin: 0;
+      width: 100%;
+    }
+  
+    .navbar a {
+      width: auto;
+      flex: 1;
+    }
+ 
+  }

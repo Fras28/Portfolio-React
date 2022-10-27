@@ -5,6 +5,9 @@ export const Footer =()=>{
 
     return(
         <div className="foot">
+          <div>
+            
+          </div>
             <a className="links" href="#inicio"><b>Top</b></a>
 	<a
           className="links"

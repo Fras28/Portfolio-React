@@ -24,4 +24,14 @@
     max-height: 2rem;
     
   }
-  
+  @media screen and (max-width: 900px) {
+.foot {
+  height: 5%;
+  gap:0px
+}
+.links{
+  font-size: small;
+  margin:3px;
+}
+
+  }
