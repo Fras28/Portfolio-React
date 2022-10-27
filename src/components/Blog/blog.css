@@ -79,7 +79,6 @@
   /*============ projects ============*/
   .contenido{
     background-color: #232323;
-    box-shadow: 15px 15px 20px #232323;
   }
   .blockBuster{
   
@@ -162,12 +161,16 @@ main {
     .contenido{
       border-radius: 1% 1% 0 0;
      }
-    
+    main{
+      background-color: #f2d4a4;
+    }
       main .contenedor {
         flex-direction: column;
+     
+       
       }
       aside {
         position: static;
-        margin: 40px 0 0 0;
+        margin: 2px 0 0 0;
       }
   }
