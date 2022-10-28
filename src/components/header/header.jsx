@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import fotoPerfil from "../assets/perfil s-fondo.png"
 
 const Header = () => {
   return (
@@ -7,7 +8,6 @@ const Header = () => {
       <header id="inicio">
         <nav className="navbar">
           <div className="contenedor">
-            <a href="#inicio"><b>Top</b></a>
             <a href="#Projects"><b>Projects</b></a>
             <a href="#whoIAm"><b>Credenctials</b></a>
             <a href="#Contact"><b>Contact</b></a>
@@ -17,7 +17,7 @@ const Header = () => {
           <div className="card">
             <img
               className="imgInicio"
-              src="https://media-exp1.licdn.com/dms/image/D4D03AQEXt9Gl_MrK4g/profile-displayphoto-shrink_800_800/0/1665499190879?e=1672272000&v=beta&t=6BjUIaduw5ZHuHNF7WCbbncjDglVZmnuyjzOHSTgHmk"
+              src={fotoPerfil}
               alt=""
             />
             <p className="myInfo">
@@ -60,7 +60,7 @@ const Header = () => {
                   className="barra2"
                   //   style={`width: 85%; background-color: #EFD81D; color: black;`}
                 >
-                  <p className="tecnology">JavaScript</p>
+                  <p className="tecnology">JavaScript 60%</p>
                 </strong>
               </div>
               <div className="grafico3">

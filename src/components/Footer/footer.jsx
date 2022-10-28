@@ -14,10 +14,10 @@ export const Footer =()=>{
           href="https://www.linkedin.com/in/francoselvarolo/"
           Target="_blank"
         >
-         <b>My Linkdin</b> 
+         <b>Linkdin</b> 
         </a>
         <a className="links" Target="_blank" href="mailto:fselvarolo28@gmail.com">
-         <b>Fselvarolo@gmail.com</b> 
+         <b>email</b> 
         </a>
         <a
           className="links"

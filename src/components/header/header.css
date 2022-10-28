@@ -236,24 +236,30 @@ strong .barra1{
   /* * ============================== */
   /* * ============ HEADER ========== */
   /* * ============================== */
+  @font-face {
+    font-family: besan;
+    src: url("../assets/Besan.otf");
+  }
   
   .navbar {
-    background: #151515;
-    background-image: radial-gradient(circle at 79.88% 114.09%, #fff918 0, #ffe40c 25%, #fdd000 50%, #eebc00 75%, #dfa900 100%);
+    background:transparent;
+    background: #ffffffd6;
     position: sticky;
     top: 0px;
     border-bottom: #197cc7 groove 0.3rem;
     z-index: 100;
     height: 3%;
+    padding: .7%;
   }
   
   .navbar a {
     color: black;
     display: inline-block;
-    padding: 20px;
+
     width: 100%;
     text-align: center;
     transition: 0.3s ease-out all;
+    font-family: besan;
   
   }
   
@@ -297,6 +303,8 @@ strong .barra1{
     margin: auto;
     border-radius: 100%;
     margin-top: 4rem;
+    background-image: url("https://i.pinimg.com/736x/56/76/5f/56765fd8f4d40b2550b4ad70de14f41f.jpg");
+    background-position: center;
   }
   .textProj{
     color: white;
@@ -321,23 +329,33 @@ strong .barra1{
     text-align: center;
     color: white;
     margin-bottom: 5em;
-    margin-top: 3rem;
-    
+    margin-top: 3rem;  
   }
  a {
     text-decoration: none;
   }
 .barra{width: 90%; background-color: orangered; color: black;}
+.barra:hover{box-shadow: inset 5em 1em rgb(251, 92, 34);}
 .barra1{width: 70%; background-color: lightskyblue; color: black;}
+.barra1:hover{box-shadow: inset 5em 1em rgb(98, 189, 246);}
 .barra2{width: 85%; background-color: #EFD81D; color: black;}
+.barra2:hover{box-shadow: inset 5em 1em #ecda4c}
 .barra3{width: 60%; background-color: #00D5F7; color: black;}
+.barra3:hover{box-shadow: inset 5em 1em #4ed9ee;}
 .barra4{width: 65%; background-color: #7649BB; color: black;}
+.barra4:hover{box-shadow: inset 5em 1em #622bb4;}
 .barra5{width: 80%; background-color: #6D11EE; color: black;}
+.barra5:hover{box-shadow: inset 5em 1em #8135ea;}
 .barra6{width: 60%; background-color: #8BBF3D; color: white;}
+.barra6:hover{box-shadow: inset 5em 1em #74b216;}
 .barra7{width: 60%; background-color: #3A72BD; color: white;}
+.barra7:hover{box-shadow: inset 5em 1em #1d5fb7;}
 .barra8{width: 65%; background-color: #2F74C0; color: white;}
+.barra8:hover{box-shadow: inset 5em 1em #447ebb;}
 .barra9{width: 80%; background-color: #31648C; color: white;}
+.barra9:hover{box-shadow: inset 5em 1em #17598b}
 .barra10{width: 70%; background-color: black; color: white;}
+.barra10:hover{box-shadow: inset 5em 1em  silver; color: black;}
 
 
 
@@ -354,6 +372,12 @@ strong .barra1{
     box-shadow: 2px 2px 20px rgb(246, 255, 0);
   }
   
+  .imgInicio:hover {
+
+    background-image: url("../assets/atomo_en_gif.gif");
+    background-position: center;
+
+  }
   .card:hover .title {
     transform: translateY(200%);
   }

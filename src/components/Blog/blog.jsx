@@ -2,8 +2,11 @@ import React from "react";
 import "./blog.css";
 
 const Blog = () => {
+
+  
+  
   return (
-    <main id="blog">
+    <main id="blog canvas">
       <div className="contenedor">
         <aside>
           <h3 className="titulo">Projects</h3>
@@ -21,6 +24,7 @@ const Blog = () => {
               className="linksPr"
               href="https://blockbuster-pf.vercel.app/"
               target="_blank"
+              rel="noreferrer"
             >
               <h2 className="titulo1">Block Buster </h2>
             </a>
