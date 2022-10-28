@@ -1,507 +1,602 @@
-strong .barra1{
-    border: solid red 1px;
-    width: 70%;
-     background-color: lightskyblue;
-      color: black;
+strong .barra1 {
+  border: solid red 1px;
+  width: 70%;
+  background-color: lightskyblue;
+  color: black;
 }
 
 .grafico {
-    height: 1em;
-    position: relative; /* IE is dumb */
-    width: 30%;
-    outline: 1px solid orangered;
-    padding: 1px;
-    margin: auto;
-  }
-  .grafico .barra {
-    display: block;
-    position: relative;
-    text-align: center;
-    color: #333;
-    height: 1em;
-    line-height: 1em;    
-  }
-  .grafico .barra span {
-    position: absolute;
-    left: 1em;
+  height: 1em;
+  position: relative; /* IE is dumb */
+  width: 30%;
+  outline: 1px solid orangered;
+  padding: 1px;
+  margin: auto;
+}
+.grafico .barra {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #333;
+  height: 1em;
+  line-height: 1em;
+}
+.grafico .barra span {
+  position: absolute;
+  left: 1em;
+}
+.grafico1 {
+  height: 1rem;
+  position: relative; /* IE is dumb */
+  width: 30%;
+  outline: 1px solid lightblue;
+  padding: 1px;
+  margin: auto;
+}
+.grafico1 .barra1 {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #333;
+  height: 1rem;
+  line-height: 1rem;
+}
+.grafico1 .barra1 span {
+  position: absolute;
+  left: 1em;
+}
+
+.grafico2 {
+  height: 1rem;
+  position: relative; /* IE is dumb */
+  width: 30%;
+  outline: 1px solid #efd81d;
+  padding: 1px;
+  margin: auto;
+}
+.grafico2 .barra2 {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #333;
+  height: 1rem;
+  line-height: 1rem;
+}
+.grafico2 .barra2 span {
+  position: absolute;
+  left: 1em;
+}
+
+.grafico3 {
+  height: 1rem;
+  position: relative; /* IE is dumb */
+  width: 30%;
+  outline: 1px solid lightblue;
+  padding: 1px;
+  margin: auto;
+}
+.grafico3 .barra3 {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #333;
+  height: 1rem;
+  line-height: 1rem;
+}
+.grafico3 .barra3 span {
+  position: absolute;
+  left: 1em;
+}
+.grafico4 {
+  height: 1rem;
+  position: relative; /* IE is dumb */
+  width: 30%;
+  outline: 1px solid #7649bb;
+  padding: 1px;
+  margin: auto;
+}
+.grafico4 .barra4 {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 1rem;
+  line-height: 1rem;
+}
+.grafico4 .barra4 span {
+  position: absolute;
+  left: 1em;
+}
+
+.grafico5 {
+  height: 1rem;
+  position: relative; /* IE is dumb */
+  width: 30%;
+  outline: 1px solid #7649bb;
+  padding: 1px;
+  margin: auto;
+}
+.grafico5 .barra5 {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 1rem;
+  line-height: 1rem;
+}
+.grafico5 .barra5 span {
+  position: absolute;
+  left: 1em;
+}
+.grafico6 {
+  height: 1rem;
+  position: relative; /* IE is dumb */
+  width: 30%;
+  outline: 1px solid #8bbf3d;
+  padding: 1px;
+  margin: auto;
+}
+.grafico6 .barra6 {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 1rem;
+  line-height: 1rem;
+}
+.grafico6 .barra6 span {
+  position: absolute;
+  left: 1em;
+}
+.grafico7 {
+  height: 1rem;
+  position: relative; /* IE is dumb */
+  width: 30%;
+  outline: 1px solid lightblue;
+  padding: 1px;
+  margin: auto;
+}
+.grafico7 .barra7 {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 1rem;
+  line-height: 1rem;
+}
+.grafico7 .barra7 span {
+  position: absolute;
+  left: 1em;
+}
+.grafico8 {
+  height: 1rem;
+  position: relative; /* IE is dumb */
+  width: 30%;
+  outline: 1px solid lightblue;
+  padding: 1px;
+  margin: auto;
+}
+.grafico8 .barra8 {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 1rem;
+  line-height: 1rem;
+}
+.grafico8 .barra8 span {
+  position: absolute;
+  left: 1em;
+}
+.grafico9 {
+  height: 1rem;
+  position: relative; /* IE is dumb */
+  width: 30%;
+  outline: 1px solid lightblue;
+  padding: 1px;
+  margin: auto;
+}
+.grafico9 .barra9 {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 1rem;
+  line-height: 1rem;
+}
+.grafico9 .barra9 span {
+  position: absolute;
+  left: 1em;
+}
+.grafico10 {
+  height: 1rem;
+  position: relative; /* IE is dumb */
+  width: 30%;
+  outline: 1px solid rgb(240, 240, 240);
+  padding: 1px;
+  margin: auto;
+}
+.grafico10 .barra10 {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 1rem;
+  line-height: 1rem;
+}
+.grafico10 .barra10 span {
+  position: absolute;
+  left: 1em;
+}
+
+.tecnology {
+  margin-top: 0;
+}
+
+/* * ============================== */
+/* * ============ HEADER ========== */
+/* * ============================== */
+@font-face {
+  font-family: besan;
+  src: url("../assets/Besan.otf");
+}
+.me{
+  font-family: besan;
+  font-size: medium;
+  font-weight: 200;
+}
+
+.navbar {
+  background: transparent;
+  background: #ffffffd6;
+  position: sticky;
+  top: 0px;
+  border-bottom: #197cc7 groove 0.3rem;
+  z-index: 100;
+  height: 3%;
+
+}
+
+.navbar a {
+  color: black;
+  display: inline-block;
+padding:1rem;
+  width: 100%;
+  text-align: center;
+  transition: 0.3s ease-out all;
+  font-family: besan;
+}
+
+.navbar a:hover {
+  background: #1d2f3d;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* * ============================== */
+/* * ===== CONTENEDOR IMAGEN ====== */
+/* * ============================== */
+
+/* From uiverse.io by @alexruix */
+.contenedorCard {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  background: white;
+  transition: all 0.5s ease-in-out;
+  align-items: center;
+  overflow: hidden;
+  background-color: transparent;
+}
+.imgInicio {
+  margin: auto;
+  border-radius: 100%;
+  margin-top: 4rem;
+  background-image: url("https://i.pinimg.com/736x/56/76/5f/56765fd8f4d40b2550b4ad70de14f41f.jpg");
+  background-position: center;
+}
+.textProj {
+  color: white;
+}
+
+.card-hidden {
+  display: flex;
+  transform: translateY(200%);
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: transform 0.5s ease-in, opacity 0.3s ease-in;
+  opacity: 0;
+  font-size: larger;
+  max-width: 100%;
+  margin: auto;
+  color: white;
+  margin-bottom: 2rem;
+}
+.myInfo {
+  max-width: 40%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  margin-bottom: 5em;
+  margin-top: 3rem;
+  background-color: #1d2f3d5d;
+  border-radius: 5%;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+}
+a {
+  text-decoration: none;
+}
+.barra {
+  width: 90%;
+  background-color: orangered;
+  color: black;
+}
+.barra:hover {
+  box-shadow: inset 5em 1em rgb(251, 92, 34);
+}
+.barra1 {
+  width: 70%;
+  background-color: lightskyblue;
+  color: black;
+}
+.barra1:hover {
+  box-shadow: inset 5em 1em rgb(98, 189, 246);
+}
+.barra2 {
+  width: 85%;
+  background-color: #efd81d;
+  color: black;
+}
+.barra2:hover {
+  box-shadow: inset 5em 1em #ecda4c;
+}
+.barra3 {
+  width: 60%;
+  background-color: #00d5f7;
+  color: black;
+}
+.barra3:hover {
+  box-shadow: inset 5em 1em #4ed9ee;
+}
+.barra4 {
+  width: 65%;
+  background-color: #7649bb;
+  color: black;
+}
+.barra4:hover {
+  box-shadow: inset 5em 1em #622bb4;
+}
+.barra5 {
+  width: 80%;
+  background-color: #6d11ee;
+  color: black;
+}
+.barra5:hover {
+  box-shadow: inset 5em 1em #8135ea;
+}
+.barra6 {
+  width: 60%;
+  background-color: #8bbf3d;
+  color: white;
+}
+.barra6:hover {
+  box-shadow: inset 5em 1em #74b216;
+}
+.barra7 {
+  width: 60%;
+  background-color: #3a72bd;
+  color: white;
+}
+.barra7:hover {
+  box-shadow: inset 5em 1em #1d5fb7;
+}
+.barra8 {
+  width: 65%;
+  background-color: #2f74c0;
+  color: white;
+}
+.barra8:hover {
+  box-shadow: inset 5em 1em #447ebb;
+}
+.barra9 {
+  width: 80%;
+  background-color: #31648c;
+  color: white;
+}
+.barra9:hover {
+  box-shadow: inset 5em 1em #17598b;
+}
+.barra10 {
+  width: 70%;
+  background-color: black;
+  color: white;
+}
+.barra10:hover {
+  box-shadow: inset 5em 1em silver;
+  color: black;
+}
+
+.card:hover {
+  transform: translate(0px, 0px);
+  border-color: #5bc0eb;
+}
+
+.card:hover .card-hidden {
+  transform: translateY(0);
+  opacity: 1;
+}
+.card:hover .imgInicio {
+  box-shadow: 2px 2px 20px rgb(246, 255, 0);
+}
+
+.imgInicio:hover {
+  background-image: url("../assets/atomo_en_gif.gif");
+  background-position: center;
+}
+.card:hover .title {
+  transform: translateY(200%);
+}
+
+@media screen and (max-width: 900px) {
+  .grafico {
+    width: 80%;
   }
   .grafico1 {
-    height: 1rem;
-    position: relative; /* IE is dumb */
-    width: 30%;
-    outline: 1px solid lightblue;
-    padding: 1px;
-    margin: auto;
+    width: 80%;
   }
-  .grafico1 .barra1 {
-    display: block;
-    position: relative;
-    text-align: center;
-    color: #333;
-    height: 1rem;
-    line-height: 1rem;
-  }
-  .grafico1 .barra1 span {
-    position: absolute;
-    left: 1em;
-  }
-  
   .grafico2 {
-    height: 1rem;
-    position: relative; /* IE is dumb */
-    width: 30%;
-    outline: 1px solid #EFD81D;
-    padding: 1px;
-    margin: auto;
+    width: 80%;
   }
-  .grafico2 .barra2 {
-    display: block;
-    position: relative;
-    text-align: center;
-    color: #333;
-    height: 1rem;
-    line-height: 1rem;
-  }
-  .grafico2 .barra2 span {
-    position: absolute;
-    left: 1em;
-  }
-  
   .grafico3 {
-    height: 1rem;
-    position: relative; /* IE is dumb */
-    width: 30%;
-    outline: 1px solid lightblue;
-    padding: 1px;
-    margin: auto;
-  }
-  .grafico3 .barra3 {
-    display: block;
-    position: relative;
-    text-align: center;
-    color: #333;
-    height: 1rem;
-    line-height: 1rem;
-  }
-  .grafico3 .barra3 span {
-    position: absolute;
-    left: 1em;
+    width: 80%;
   }
   .grafico4 {
-    height: 1rem;
-    position: relative; /* IE is dumb */
-    width: 30%;
-    outline: 1px solid #7649BB;
-    padding: 1px;
-    margin: auto;
+    width: 80%;
   }
-  .grafico4 .barra4 {
-    display: block;
-    position: relative;
-    text-align: center;
-    color: white;
-    height: 1rem;
-    line-height: 1rem;
-  }
-  .grafico4 .barra4 span {
-    position: absolute;
-    left: 1em;
-  }
-  
   .grafico5 {
-    height: 1rem;
-    position: relative; /* IE is dumb */
-    width: 30%;
-    outline: 1px solid #7649BB;
-    padding: 1px;
-    margin: auto;
-  }
-  .grafico5 .barra5 {
-    display: block;
-    position: relative;
-    text-align: center;
-    color: white;
-    height: 1rem;
-    line-height: 1rem;
-  }
-  .grafico5 .barra5 span {
-    position: absolute;
-    left: 1em;
+    width: 80%;
   }
   .grafico6 {
-    height: 1rem;
-    position: relative; /* IE is dumb */
-    width: 30%;
-    outline: 1px solid #8BBF3D;
-    padding: 1px;
-    margin: auto;
-  }
-  .grafico6 .barra6 {
-    display: block;
-    position: relative;
-    text-align: center;
-    color: white;
-    height: 1rem;
-    line-height: 1rem;
-  }
-  .grafico6 .barra6 span {
-    position: absolute;
-    left: 1em;
+    width: 80%;
   }
   .grafico7 {
-    height: 1rem;
-    position: relative; /* IE is dumb */
-    width: 30%;
-    outline: 1px solid lightblue;
-    padding: 1px;
-    margin: auto;
-  }
-  .grafico7 .barra7 {
-    display: block;
-    position: relative;
-    text-align: center;
-    color: white;
-    height: 1rem;
-    line-height: 1rem;
-  }
-  .grafico7 .barra7 span {
-    position: absolute;
-    left: 1em;
+    width: 80%;
   }
   .grafico8 {
-    height: 1rem;
-    position: relative; /* IE is dumb */
-    width: 30%;
-    outline: 1px solid lightblue;
-    padding: 1px;
-    margin: auto;
-  }
-  .grafico8 .barra8 {
-    display: block;
-    position: relative;
-    text-align: center;
-    color: white;
-    height: 1rem;
-    line-height: 1rem;
-  }
-  .grafico8 .barra8 span {
-    position: absolute;
-    left: 1em;
+    width: 80%;
   }
   .grafico9 {
-    height: 1rem;
-    position: relative; /* IE is dumb */
-    width: 30%;
-    outline: 1px solid lightblue;
-    padding: 1px;
-    margin: auto;
-  }
-  .grafico9 .barra9 {
-    display: block;
-    position: relative;
-    text-align: center;
-    color: white;
-    height: 1rem;
-    line-height: 1rem;
-  }
-  .grafico9 .barra9 span {
-    position: absolute;
-    left: 1em;
+    width: 80%;
   }
   .grafico10 {
-    height: 1rem;
-    position: relative; /* IE is dumb */
-    width: 30%;
-    outline: 1px solid rgb(240, 240, 240);
-    padding: 1px;
-    margin: auto;
-  }
-  .grafico10 .barra10 {
-    display: block;
-    position: relative;
-    text-align: center;
-    color: white;
-    height: 1rem;
-    line-height: 1rem;
-  }
-  .grafico10 .barra10 span {
-    position: absolute;
-    left: 1em;
+    width: 80%;
   }
 
-  .tecnology{
-    margin-top: 0;
-}
-  
-  /* * ============================== */
-  /* * ============ HEADER ========== */
-  /* * ============================== */
-  @font-face {
-    font-family: besan;
-    src: url("../assets/Besan.otf");
-  }
-  
-  .navbar {
-    background:transparent;
-    background: #ffffffd6;
-    position: sticky;
-    top: 0px;
-    border-bottom: #197cc7 groove 0.3rem;
-    z-index: 100;
-    height: 3%;
-    padding: .7%;
-  }
-  
-  .navbar a {
-    color: black;
-    display: inline-block;
-
-    width: 100%;
-    text-align: center;
-    transition: 0.3s ease-out all;
-    font-family: besan;
-  
-  }
-  
-  .navbar a:hover {
-    background: #1d2f3d;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .contenedor {
-    max-width: 1000px;
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  /* * ============================== */
-  /* * ===== CONTENEDOR IMAGEN ====== */
-  /* * ============================== */
-  
-  
-  
-  /* From uiverse.io by @alexruix */
-  .contenedorCard {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-  }
-  
   .card {
-    width: 100%;
-    height: 100%;
-    background: white;
-    transition: all 0.5s ease-in-out;
-    align-items: center;
-    overflow: hidden;
-    background-color: #232323;
+    overflow: scroll;
   }
-  .imgInicio {
-    margin: auto;
-    border-radius: 100%;
-    margin-top: 4rem;
-    background-image: url("https://i.pinimg.com/736x/56/76/5f/56765fd8f4d40b2550b4ad70de14f41f.jpg");
-    background-position: center;
-  }
-  .textProj{
-    color: white;
-  }
-  
+
   .card-hidden {
-    display: flex;
-    transform: translateY(200%);
-    flex-direction: column;
-    gap: 0.5rem;
-    transition: transform 0.5s ease-in, opacity 0.3s ease-in;
-    opacity: 0;
-    font-size: larger;
-    max-width: 100%;
-    margin: auto;
-    color: white;
-    margin-bottom: 2rem;
+    overflow-y: scroll;
+    width: 150%;
   }
   .myInfo {
-    max-width: 30%;
-    margin: auto;
-    text-align: center;
-    color: white;
-    margin-bottom: 5em;
-    margin-top: 3rem;  
-  }
- a {
-    text-decoration: none;
-  }
-.barra{width: 90%; background-color: orangered; color: black;}
-.barra:hover{box-shadow: inset 5em 1em rgb(251, 92, 34);}
-.barra1{width: 70%; background-color: lightskyblue; color: black;}
-.barra1:hover{box-shadow: inset 5em 1em rgb(98, 189, 246);}
-.barra2{width: 85%; background-color: #EFD81D; color: black;}
-.barra2:hover{box-shadow: inset 5em 1em #ecda4c}
-.barra3{width: 60%; background-color: #00D5F7; color: black;}
-.barra3:hover{box-shadow: inset 5em 1em #4ed9ee;}
-.barra4{width: 65%; background-color: #7649BB; color: black;}
-.barra4:hover{box-shadow: inset 5em 1em #622bb4;}
-.barra5{width: 80%; background-color: #6D11EE; color: black;}
-.barra5:hover{box-shadow: inset 5em 1em #8135ea;}
-.barra6{width: 60%; background-color: #8BBF3D; color: white;}
-.barra6:hover{box-shadow: inset 5em 1em #74b216;}
-.barra7{width: 60%; background-color: #3A72BD; color: white;}
-.barra7:hover{box-shadow: inset 5em 1em #1d5fb7;}
-.barra8{width: 65%; background-color: #2F74C0; color: white;}
-.barra8:hover{box-shadow: inset 5em 1em #447ebb;}
-.barra9{width: 80%; background-color: #31648C; color: white;}
-.barra9:hover{box-shadow: inset 5em 1em #17598b}
-.barra10{width: 70%; background-color: black; color: white;}
-.barra10:hover{box-shadow: inset 5em 1em  silver; color: black;}
-
-
-
-  .card:hover {
-    transform: translate(0px, 0px);
-    border-color: #5bc0eb;
-  }
-  
-  .card:hover .card-hidden {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  .card:hover .imgInicio {
-    box-shadow: 2px 2px 20px rgb(246, 255, 0);
-  }
-  
-  .imgInicio:hover {
-
-    background-image: url("../assets/atomo_en_gif.gif");
-    background-position: center;
-
-  }
-  .card:hover .title {
-    transform: translateY(200%);
-  }
-  
-  @media screen and (max-width: 900px) {
-    .grafico{
-      width: 80%;
-    }
-    .grafico1{
-      width: 80%;
-    }
-    .grafico2{
-      width: 80%;
-    }
-    .grafico3{
-      width: 80%;
-    }
-    .grafico4{
-      width: 80%;
-    }
-    .grafico5{
-      width: 80%;
-    }
-    .grafico6{
-      width: 80%;
-    }
-    .grafico7{
-      width: 80%;
-    }
-    .grafico8{
-      width: 80%;
-    }
-    .grafico9{
-      width: 80%;
-    }
-    .grafico10{
-      width: 80%;
-    }
-  
-    .card {
-      overflow: scroll;
-    
-    }
-
-    .card-hidden {
-      overflow-y: scroll;
-      width: 150%;
-    }
-    .myInfo {
-      font-size: small;
-      max-width: 100%;
-    }
- 
-    .navbar .contenedor {
-      flex-wrap: wrap;
-      margin: 0;
-      width: 100%;
-    }
-  
-    .navbar a {
-      width: auto;
-      flex: 1;
-    }
- 
+    font-size: small;
+    max-width: 100%;
   }
 
-   @media screen and (max-width: 900px) {
-    .grafico{
-      width: 80%;
-    }
-    .grafico1{
-      width: 80%;
-    }
-    .grafico2{
-      width: 80%;
-    }
-    .grafico3{
-      width: 80%;
-    }
-    .grafico4{
-      width: 80%;
-    }
-    .grafico5{
-      width: 80%;
-    }
-    .grafico6{
-      width: 80%;
-    }
-    .grafico7{
-      width: 80%;
-    }
-    .grafico8{
-      width: 80%;
-    }
-    .grafico9{
-      width: 80%;
-    }
-    .grafico10{
-      width: 80%;
-    }
-  
-    .card {
-      overflow: scroll;
-    
-    }
-
-    .card-hidden {
-      overflow-y: scroll;
-      width: 150%;
-    }
-    .myInfo {
-      font-size: small;
-      max-width: 100%;
-    }
- 
-    .navbar .contenedor {
-      flex-wrap: wrap;
-      margin: 0;
-      width: 100%;
-    }
-  
-    .navbar a {
-      width: auto;
-      flex: 1;
-    }
- 
+  .navbar .contenedor {
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
   }
+
+  .navbar a {
+    width: auto;
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .grafico {
+    width: 80%;
+  }
+  .grafico1 {
+    width: 80%;
+  }
+  .grafico2 {
+    width: 80%;
+  }
+  .grafico3 {
+    width: 80%;
+  }
+  .grafico4 {
+    width: 80%;
+  }
+  .grafico5 {
+    width: 80%;
+  }
+  .grafico6 {
+    width: 80%;
+  }
+  .grafico7 {
+    width: 80%;
+  }
+  .grafico8 {
+    width: 80%;
+  }
+  .grafico9 {
+    width: 80%;
+  }
+  .grafico10 {
+    width: 80%;
+  }
+
+  .card {
+    overflow: scroll;
+  }
+
+  .card-hidden {
+    overflow-y: scroll;
+    width: 150%;
+  }
+  .myInfo {
+    font-size: small;
+    max-width: 100%;
+  }
+
+  .navbar .contenedor {
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+  }
+
+  .navbar a {
+    width: auto;
+    flex: 1;
+  }
+}
+/*================ BACKGROUND ============*/
+.bg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: #1d2f3d groove 0.5rem;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+    -45deg,
+    rgb(149, 80, 228) 0%,
+    rgb(122, 27, 169) 25%,
+    rgb(58, 128, 160) 51%,
+    rgb(9, 61, 83) 100%
+  );
+  animation: AnimateBG 20s ease infinite;
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/*================ BACKGROUND ============*/

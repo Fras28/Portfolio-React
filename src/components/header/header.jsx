@@ -10,10 +10,10 @@ const Header = () => {
           <div className="contenedor">
             <a href="#Projects"><b>Projects</b></a>
             <a href="#whoIAm"><b>Credenctials</b></a>
-            <a href="#Contact"><b>Contact</b></a>
+            <a Target="_blank" href="mailto:fselvarolo28@gmail.com"><b>Contact</b></a>
           </div>
         </nav>
-        <div className="contemedorCard">
+        <div className="contemedorCard bg">
           <div className="card">
             <img
               className="imgInicio"
@@ -21,9 +21,9 @@ const Header = () => {
               alt=""
             />
             <p className="myInfo">
-              <b>
+              <b className="me">
                 Im Franco Selvarolo and I am a Full Stack Developer from
-                Argentina.
+                Argentina
               </b>
               <br />
               <b>-I.T. <a href="#Projects">Projects</a>:<br/></b> 
@@ -60,7 +60,7 @@ const Header = () => {
                   className="barra2"
                   //   style={`width: 85%; background-color: #EFD81D; color: black;`}
                 >
-                  <p className="tecnology">JavaScript 60%</p>
+                  <p className="tecnology">JavaScript</p>
                 </strong>
               </div>
               <div className="grafico3">
