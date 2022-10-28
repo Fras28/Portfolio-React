@@ -68,7 +68,7 @@ const Header = () => {
                   className="barra3"
                   //   style={`width: 60%; background-color: #00D5F7; color: black;`}
                 >
-                  <p className="tecnology">React/Redux-Toolkit</p>
+                  <p className="tecnology">React</p>
                 </strong>
               </div>
               <div className="grafico4">
@@ -76,7 +76,7 @@ const Header = () => {
                   className="barra4"
                   //   style={`width: 65%; background-color: #7649BB; color: black;`}
                 >
-                  <p className="tecnology">Redux</p>
+                  <p className="tecnology">Redux/Redux-Toolkit</p>
                 </strong>
               </div>
               <div className="grafico5">
