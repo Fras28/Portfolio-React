@@ -1,0 +1,120 @@
+@font-face {
+  font-family: DarkM;
+  src: url("../assets/DarkMagic-2O3w8.ttf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+
+.conteItemsCarrusel {
+  height: 600px;
+  width: 60rem;
+  margin: auto;
+   overflow: hidden; 
+  margin-top: 10%;
+
+}
+.conteItemsCarrusel p{
+    background-color: rgba(0, 0, 0, 0.628);
+}
+
+
+.itemCarrusel {
+  height: 100%;
+  position: relative;
+  transition: 500ms;
+
+}
+.titleCard {
+  margin-bottom: 0;
+  text-align: start;
+  font-size: 5rem;
+  padding-left: 5%;
+  font-family: DarkM;
+  color: white;
+  text-align: center;
+}
+.carrusel {
+  height: 100%;
+}
+.nextPrev {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+/*=======================
+========card=========
+=========================*/
+
+.dateProj{
+    background-color: black;
+    color:white;
+    position: absolute;
+    top: 0;
+    font-size: 1rem;
+    font-family: 'Vollkorn', serif;
+     margin-left: 10%;
+}
+.titleCardP{
+  margin-bottom: 0;
+  font-size: 5rem;
+  width: 100%;
+  text-align: center;
+  font-family: DarkM;
+  color: white;
+  position: absolute;
+  top: 0;
+}
+.detailProj{
+  margin-bottom: 0;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  font-family: DarkM;
+  color: white;
+  position: absolute;
+  top: 60%;
+  font-family: 'Vollkorn', serif;
+}
+.backgoundProject{
+ height: 100%;
+  width: 100%;
+}
+.carrBtn{
+  background-color: #313131;
+  padding: .5rem;
+  color: aliceblue;
+  font-family: 'Vollkorn', serif;
+  font-size: 1rem;
+  display: flex;
+  border: none;
+}
+.carrBtn:hover{
+  background-color: rgb(65, 56, 56);
+  outline: solid 1px white;
+  border-radius: 10%;
+}
+
+/*========== efecto flechas =========*/
+
+.card--active {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 99;
+}
+
+.card--left {
+  transform: translateX(-125%) scale(0.8);
+  transition: 500ms;
+  opacity: 0.3;
+}
+
+.card--right {
+  transform: translateX(125%) scale(0.8);
+  transition: 500ms;
+  opacity: 0.3;
+}
+

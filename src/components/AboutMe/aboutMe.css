@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+
+.aboutMeContainer{
+    width: 100%;
+    height: 100%;
+    display: flex; /* display block responsive  */
+    justify-content:center;
+    gap: 8rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 8%;
+}
+/*==========================================
+============= Lado izquierdo About me ======
+===========================================*/
+.left{
+    width: 45%;
+    height: 100%;
+    padding-right: 2%;
+}
+.skills{
+    text-align: center;
+    font-family: DarkM;
+    font-size: 7rem;
+    color: white;
+    height: 500px;
+    height: 100%;
+    padding-top: 0;
+    margin-bottom: 0%;
+    margin-top: 0;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: left;
+    padding-top: 0;
+    line-height: .5rem;
+    list-style:none;
+   
+  
+}
+li{
+    list-style:none;
+}
+.tecnology{
+    color: white;
+    font-family: 'Vollkorn', serif;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    min-width: 120px;
+    text-align: end;
+}
+
+.fondoBar{
+    display: flex;
+    width: 100%;
+    background-color: #e7e7e7;
+}
+.barraHTML{
+    width: 70%;
+    background-color: orangered; 
+    vertical-align: middle;
+    text-align: left;
+    font-family: 'Vollkorn', serif;
+    font-size: 1rem;
+    color: white;
+    padding-top: .2rem;
+    height: .6rem;
+    padding-left: 1rem;
+}
+.barraCSS{
+    width: 60%;
+    background-color:#254BDD; 
+    vertical-align: middle;
+    text-align: left;
+    font-family: 'Vollkorn', serif;
+    font-size: small;
+    color: white;
+    padding-top: .2rem;
+    height: .6rem;
+    padding-left: 1rem;
+}
+.barraReact{
+ 
+    width: 70%;
+    background-color:#5ED3F3; 
+    vertical-align: middle;
+    height:.6rem;
+    text-align: left;
+    font-family: 'Vollkorn', serif;
+    font-size: small;
+    color: black;
+    padding-top: .2rem;
+    height: .6rem;
+    padding-left: 1rem;
+}
+.barraRedux{
+    width: 70%;
+    background-color:#7649BB; 
+    vertical-align: middle;
+    text-align: left;
+    font-family: 'Vollkorn', serif;
+    font-size: small;
+    color: white;
+    padding-top: .2rem;
+    height: .6rem;
+    padding-left: 1rem;
+}
+.barraJS{
+    width: 85%;
+    background-color:#EFD81D; 
+    vertical-align: middle;
+    text-align: left;
+    font-family: 'Vollkorn', serif;
+    font-size: small;
+    color: black;
+    padding-top: .2rem;
+    height: .6rem;
+    padding-left: 1rem;
+}
+.barraBoot{
+    width: 80%;
+    background-color:#7411F1; 
+    vertical-align: middle;
+    text-align: left;
+    font-family: 'Vollkorn', serif;
+    font-size: small;
+    color: white;
+    padding-top: .2rem;
+    height: .6rem;
+    padding-left: 1rem;
+}
+
+.barraNode{
+    width: 60%;
+    background-color:#8BBF3D; 
+    vertical-align: middle;
+    height: 1rem;
+    text-align: left;
+    font-family: 'Vollkorn', serif;
+    font-size: small;
+    color: black;
+    padding-top: .2rem;
+    height: .6rem;
+    padding-left: 1rem;
+}
+.barraTS{
+    width: 70%;
+    background-color:#2F74C0; 
+    vertical-align: middle;
+    text-align: left;
+    font-family: 'Vollkorn', serif;
+    font-size: small;
+    color: white;
+    padding-top: .2rem;
+    height: .6rem;
+    padding-left: 1rem;
+}
+.barraPostgre{
+    width: 65%;
+    background-color:#31648C; 
+    vertical-align: middle;
+    height: 1rem;
+    text-align: left;
+    font-family: 'Vollkorn', serif;
+    font-size: small;
+    color: white;
+    padding-top: .2rem;
+    height: .6rem;
+    padding-left: 1rem;
+}
+.barraSeque{
+    width: 60%;
+    background-color:#254BDD; 
+    vertical-align: middle;
+    height: 1rem;
+    text-align: left;
+    font-family: 'Vollkorn', serif;
+    font-size: small;
+    color: white;
+    padding-top: .2rem;
+    height: .6rem;
+    padding-left: 1rem;
+}
+.barraGit{
+    width: 60%; 
+    background-color:black; 
+    vertical-align: middle;
+    height: 1rem;
+    text-align: left;
+    font-family: 'Vollkorn', serif;
+    font-size: small;
+    color: white;
+    padding-top: .2rem;
+    height: .6rem;
+    padding-left: 1rem;
+}
+
+.skillLvl{
+    color: white;
+}
+
+
+
+
+
+
+
+/*==========================================
+============= Lado Derecho About me ======
+===========================================*/
+.right{
+    text-align: center;
+    font-family: DarkM;
+    font-size: 7rem;
+    color: white;
+    width: 45%;
+    height: 500px;
+    height: 100%;
+}
+.aboutTitle{
+    margin-bottom: 0%;
+    margin-top: 0;
+    text-align: start;
+}
+.aboutSubtitle{
+    font-family: 'Vollkorn', serif;
+    font-size: 1.5rem;
+    text-align:start;
+}
+
+/*==========================================
+=============    ======
+===========================================*/
