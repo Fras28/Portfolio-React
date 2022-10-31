@@ -3,17 +3,26 @@
   src: url("../assets/DarkMagic-2O3w8.ttf");
 }
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
-
+.backlProj{
+  background-image: url("../assets//marcoProj.png");
+  background-repeat: no-repeat;
+background-size: 99rem;
+  background-position: 50% 180%;
+  
+}
 .conteItemsCarrusel {
   height: 600px;
   width: 60rem;
   margin: auto;
-   overflow: hidden; 
+  overflow: hidden; 
   margin-top: 10%;
+ border-radius: 20%;
+outline: solid .7rem black;
 
 }
 .conteItemsCarrusel p{
     background-color: rgba(0, 0, 0, 0.628);
+    
 }
 
 

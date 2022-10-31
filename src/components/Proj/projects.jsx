@@ -20,7 +20,7 @@ export const Project = () => {
  
 
   return (
-    <>
+    <div className="backlProj">
       <p className="titleCard" id="Project">
         Projects
       </p>
@@ -51,6 +51,6 @@ export const Project = () => {
         })}
       </div>
       ;
-    </>
+    </div>
   );
 };
