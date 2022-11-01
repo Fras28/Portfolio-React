@@ -95,7 +95,7 @@ a {
   .card {
     display: flex;
     overflow:unset;
-    margin-top: 640%;
+    margin-top: 650%;
     flex-direction: column-reverse;
   }
   .myInfo {
@@ -115,4 +115,9 @@ a {
 
 }
 
+@media screen and (max-width: 640px) {
+  .card {
+    margin-top: 680%;
+  }
+}
 /*================ BACKGROUND ============*/
