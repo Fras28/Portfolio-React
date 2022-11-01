@@ -33,8 +33,6 @@ background-color:transparent ;
  gap: .2rem;
  display: flex;
  background-color:transparent ;
-
-
 }
 
 .navbar .buttonText {
@@ -70,4 +68,42 @@ background-color:transparent ;
   display: flex;
   justify-content: space-around;
   background-color:transparent ;
+}
+@media (max-width: 900px) {
+ .myName{
+font-size: 2rem;
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  height: 3%;
+  white-space: nowrap;
+  padding-top: 1.5%;
+  background-color:transparent ;
+}
+.navStart{
+  padding-top: 0;
+  background-color:transparent ;
+}
+.navEnd{
+  display: none;
+}
+
+.navbar b {
+  display: none;
+  }
+
+.navbar b:hover {
+  display: none;
+}
+
+.contenedor {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  background-color:transparent ;
+}
 }

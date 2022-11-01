@@ -95,7 +95,7 @@ a {
   .card {
     display: flex;
     overflow:unset;
-    margin-top: 490%;
+    margin-top: 640%;
     flex-direction: column-reverse;
   }
   .myInfo {
@@ -104,10 +104,13 @@ a {
   }
   .titleCard {
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
   }
   .imgInicio {
     height: 20rem;
+  }
+  .subtitle {
+   text-align: center;
   }
 
 }
