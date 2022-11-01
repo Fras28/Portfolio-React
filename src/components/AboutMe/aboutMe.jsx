@@ -1,7 +1,16 @@
 import React from "react";
 import "./aboutMe.css"
 
+import { FaReact} from 'react-icons/fa';
 import Separador from "../assets/separador1.png"
+import htmlImg from "../assets/html.png"
+import css3 from "../assets/css-3.png"
+import reactImg from "../assets/React.png"
+import reduxImg from "../assets/Redux.png"
+import jsImg from "../assets/jsImg.png"
+import bootImg from "../assets/Bootstrap.png"
+
+
 
 
 export const AbourMe =()=>{
@@ -13,12 +22,12 @@ export const AbourMe =()=>{
             <div className="left">
             <p className="skills">Skills</p>
                 <ul className="tencoUl">
-                    <li className="row"><p className="tecnology">HTML</p> <div className="fondoBar"><div className="barraHTML" >Proficient</div></div></li>
-                    <li className="row"><p className="tecnology">CSS</p> <div className="fondoBar"><div className="barraCSS">Competent</div></div></li>
-                    <li className="row"><p className="tecnology">React</p> <div className="fondoBar"><div className="barraReact">Competent</div></div></li>
-                    <li className="row"><p className="tecnology">Redux</p><div className="fondoBar"> <div className="barraRedux">Competent</div></div></li>
-                    <li className="row"><p className="tecnology">JavaScript</p><div className="fondoBar"> <div className="barraJS">Competent+</div></div></li>
-                    <li className="row"><p className="tecnology">Bootstrap</p> <div className="fondoBar"><div className="barraBoot">Competent</div></div></li>
+                    <li className="row"><img src={htmlImg} className="iconTecno" alt="..."/><div className="fondoBar"><div className="barraHTML" >Proficient</div></div></li>
+                    <li className="row"><img src={css3} className="iconTecno" alt="..."/> <div className="fondoBar"><div className="barraCSS">Competent</div></div></li>
+                    <li className="row"> <img src={reactImg} className="iconTecno" alt="..."/><div className="fondoBar"><div className="barraReact">Competent</div></div></li>
+                    <li className="row"><img src={reduxImg} className="iconTecno" alt="..."/><div className="fondoBar"> <div className="barraRedux">Competent</div></div></li>
+                    <li className="row"><img src={jsImg} className="iconTecno" alt="..."/><div className="fondoBar"> <div className="barraJS">Competent+</div></div></li>
+                    <li className="row"><img src={bootImg} className="iconTecno" alt="..."/> <div className="fondoBar"><div className="barraBoot">Competent</div></div></li>
                     <li className="row"><p className="tecnology">Node</p> <div className="fondoBar"><div className="barraNode"> Advanced Beginner</div></div></li>
                     <li className="row"><p className="tecnology">TypeScript</p> <div className="fondoBar"><div className="barraTS"> Advanced Beginner</div></div></li>
                     <li className="row"><p className="tecnology">PostgreSQL</p><div className="fondoBar"> <div className="barraPostgre">Advanced Beginner</div></div></li>
