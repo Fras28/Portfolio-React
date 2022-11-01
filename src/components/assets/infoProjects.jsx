@@ -1,7 +1,7 @@
 import BBimg from "./blockbusterImg.jpg"
 import GamesImg from "./GameU.jpg"
 import CountryImg from "./countries img.jpg"
-import SvalyImg from "./Svaly.jpg"
+import SvalyImg from "./svaly1.jpg"
 
 const BlockBuster = {
   title: "Block Buster",

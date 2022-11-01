@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+.d-block{
+    width: 100%;
+    height: 80%;
+    border-radius: 10%;
+}
+
+.carousel-inner{
+   width: 80%;
+   margin: auto;
+}
+
+.project{
+    position: absolute;
+    background-color: transparent;
+    align-items: center;
+    font-family: DarkM;
+    color: rgb(255, 255, 255);
+    display: flex;
+justify-content: center;
+  margin-top: 10%;
+  font-size: 6rem;
+  background-color: rgba(0, 0, 0, 0.544);
+  width: 100%;
+}
+.projectDate{
+    position: absolute;
+    background-color: transparent;
+    align-items: center;
+    color: white;
+    padding: 1rem 1rem 1rem 2rem;
+    margin-top: 20%;
+    border-radius: 10%;
+    font-family: 'Vollkorn', serif;
+    
+}
+.projectDet{
+    position: absolute;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.544);
+    width: 100%;
+    margin-top: 30%;
+    font-family: 'Vollkorn', serif;
+    font-size: 2rem;
+    color: white;
+    padding-left: 2rem;
+
+}

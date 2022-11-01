@@ -3,56 +3,9 @@
   src: url("../assets/DarkMagic-2O3w8.ttf");
 }
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
-.backlProj{
-  background-image: url("../assets//marcoProj.png");
-  background-repeat: no-repeat;
-background-size: 99rem;
-  background-position: 50% 180%;
-  
-}
-.conteItemsCarrusel {
-  height: 600px;
-  width: 60rem;
-  margin: auto;
-  overflow: hidden; 
-  margin-top: 10%;
- border-radius: 20%;
-outline: solid .7rem black;
 
-}
-.conteItemsCarrusel p{
-    background-color: rgba(0, 0, 0, 0.628);
-    
-}
-
-
-.itemCarrusel {
-  height: 100%;
-  position: relative;
-  transition: 500ms;
-
-}
-.titleCard {
-  margin-bottom: 0;
-  text-align: start;
-  font-size: 5rem;
-  padding-left: 5%;
-  font-family: DarkM;
-  color: white;
-  text-align: center;
-}
-.carrusel {
-  height: 100%;
-}
-.nextPrev {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 95%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
+.conteItemsCarrusel{
+  margin-bottom: 10rem;
 }
 /*=======================
 ========card=========
@@ -67,15 +20,8 @@ outline: solid .7rem black;
     font-family: 'Vollkorn', serif;
      margin-left: 10%;
 }
-.titleCardP{
-  margin-bottom: 0;
-  font-size: 5rem;
-  width: 100%;
-  text-align: center;
-  font-family: DarkM;
-  color: white;
-  position: absolute;
-  top: 0;
+.titleProject{
+
 }
 .detailProj{
   margin-bottom: 0;
