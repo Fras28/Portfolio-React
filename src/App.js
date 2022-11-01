@@ -1,7 +1,6 @@
 
 import './App.css';
 import Header from "./components/header/header"
-import { Footer } from './components/Footer/footer';
 import { Nav } from './components/Nav/nav';
 import { AbourMe } from './components/AboutMe/aboutMe';
 import { Certificates } from './components/Certifcado/credentials';
@@ -16,7 +15,6 @@ function App() {
       <AbourMe/>
       <Project/>
       <Certificates/>
-      <Footer/>
     </div>
   );
 }

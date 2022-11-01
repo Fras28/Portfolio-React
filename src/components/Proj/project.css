@@ -4,26 +4,28 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 
-.conteItemsCarrusel{
+.backlProj{
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.conteItemsCarrusel {
   margin-bottom: 10rem;
 }
 /*=======================
 ========card=========
 =========================*/
-
-.dateProj{
-    background-color: black;
-    color:white;
-    position: absolute;
-    top: 0;
-    font-size: 1rem;
-    font-family: 'Vollkorn', serif;
-     margin-left: 10%;
+.titleCardP {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 5rem;
+  font-family: DarkM;
+  color: white;
+  margin-bottom: 3rem;
 }
-.titleProject{
 
-}
-.detailProj{
+.detailProj {
   margin-bottom: 0;
   font-size: 2rem;
   width: 100%;
@@ -32,22 +34,22 @@
   color: white;
   position: absolute;
   top: 60%;
-  font-family: 'Vollkorn', serif;
+  font-family: "Vollkorn", serif;
 }
-.backgoundProject{
- height: 100%;
+.backgoundProject {
+  height: 100%;
   width: 100%;
 }
-.carrBtn{
+.carrBtn {
   background-color: #313131;
-  padding: .5rem;
+  padding: 0.5rem;
   color: aliceblue;
-  font-family: 'Vollkorn', serif;
+  font-family: "Vollkorn", serif;
   font-size: 1rem;
   display: flex;
   border: none;
 }
-.carrBtn:hover{
+.carrBtn:hover {
   background-color: rgb(65, 56, 56);
   outline: solid 1px white;
   border-radius: 10%;
@@ -72,4 +74,13 @@
   transition: 500ms;
   opacity: 0.3;
 }
+@media (max-width: 900px) {
+  .conteItemsCarrusel{
+    width: 50%;
+    margin: auto;
+  }
+  .titleCardP {
+    font-size: 4rem;
+  }
 
+}

@@ -11,7 +11,7 @@ export const Project = () => {
 
   return (
     <div className="backlProj">
-      <p className="titleCard" id="Project">
+      <p className="titleCardP" id="Project">
         Projects
       </p>
       <div className="conteItemsCarrusel">

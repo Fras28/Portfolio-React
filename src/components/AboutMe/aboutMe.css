@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 
-
+.aboutMe{
+    width: 90%;
+    margin: auto;
+}
 .aboutMeContainer{
-    width: 100%;
+    width: 90%;
     height: 100%;
     display: flex; /* display block responsive  */
     justify-content:center;
     gap: 8rem;
     padding-bottom: 0;
     margin-bottom: 0;
-    padding-top: 8%;
+
 }
 /*==========================================
 ============= Lado izquierdo About me ======
@@ -37,6 +40,7 @@
 }
 .row{
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
     justify-content: left;
@@ -62,7 +66,7 @@ li{
     width: 100%;
     background-color: #e7e7e7;
     padding-left: 0;
-    height: rem;
+    height: 1rem;
 }
 .barraHTML{
     width: 70%;
@@ -72,10 +76,9 @@ li{
     font-family: 'Vollkorn', serif;
     font-size: 1rem;
     color: white;
-    padding-top: .2rem;
-    height: .6rem;
+   padding-top: .3rem;
     padding-left: 1rem;
-    height: .6rem;
+    height: 1rem;
 }
 .barraCSS{
     width: 60%;
@@ -85,8 +88,8 @@ li{
     font-family: 'Vollkorn', serif;
     font-size: small;
     color: white;
-    padding-top: .2rem;
-    height: .6rem;
+   padding-top: .3rem;
+    height: 1rem;
     padding-left: 1rem;
 }
 .barraReact{
@@ -99,8 +102,8 @@ li{
     font-family: 'Vollkorn', serif;
     font-size: small;
     color: black;
-    padding-top: .2rem;
-    height: .6rem;
+   padding-top: .3rem;
+    height: 1rem;
     padding-left: 1rem;
 }
 .barraRedux{
@@ -111,8 +114,8 @@ li{
     font-family: 'Vollkorn', serif;
     font-size: small;
     color: white;
-    padding-top: .2rem;
-    height: .6rem;
+   padding-top: .3rem;
+    height: 1rem;
     padding-left: 1rem;
 }
 .barraJS{
@@ -123,8 +126,8 @@ li{
     font-family: 'Vollkorn', serif;
     font-size: small;
     color: black;
-    padding-top: .2rem;
-    height: .6rem;
+   padding-top: .3rem;
+    height: 1rem;
     padding-left: 1rem;
 }
 .barraBoot{
@@ -135,8 +138,8 @@ li{
     font-family: 'Vollkorn', serif;
     font-size: small;
     color: white;
-    padding-top: .2rem;
-    height: .6rem;
+   padding-top: .3rem;
+    height: 1rem;
     padding-left: 1rem;
 }
 
@@ -149,8 +152,8 @@ li{
     font-family: 'Vollkorn', serif;
     font-size: small;
     color: black;
-    padding-top: .2rem;
-    height: .6rem;
+   padding-top: .3rem;
+    height: 1rem;
     padding-left: 1rem;
 }
 .barraTS{
@@ -161,8 +164,8 @@ li{
     font-family: 'Vollkorn', serif;
     font-size: small;
     color: white;
-    padding-top: .2rem;
-    height: .6rem;
+   padding-top: .3rem;
+    height: 1rem;
     padding-left: 1rem;
 }
 .barraPostgre{
@@ -174,8 +177,8 @@ li{
     font-family: 'Vollkorn', serif;
     font-size: small;
     color: white;
-    padding-top: .2rem;
-    height: .6rem;
+   padding-top: .3rem;
+    height: 1rem;
     padding-left: 1rem;
 }
 .barraSeque{
@@ -187,8 +190,8 @@ li{
     font-family: 'Vollkorn', serif;
     font-size: small;
     color: white;
-    padding-top: .2rem;
-    height: .6rem;
+    padding-top: .3rem;
+    height: 1rem;
     padding-left: 1rem;
 }
 .barraGit{
@@ -200,16 +203,24 @@ li{
     font-family: 'Vollkorn', serif;
     font-size: small;
     color: white;
-    padding-top: .2rem;
-    height: .6rem;
+    padding-top: .3rem;
+    height: 1rem;
     padding-left: 1rem;
+
 }
 
 .skillLvl{
     color: white;
 }
 
-
+.tecnolog{
+    color: white;
+    font-family: 'Vollkorn', serif;
+    font-size: 1rem;
+   margin-bottom: 0;
+   margin-top: 1rem;
+   padding-bottom: .5rem;  
+}
 
 
 
@@ -230,7 +241,7 @@ li{
 .aboutTitle{
     margin-bottom: 0%;
     margin-top: 0;
-    text-align: start;
+    text-align: center;
 }
 .aboutSubtitle{
     font-family: 'Vollkorn', serif;
@@ -241,3 +252,42 @@ li{
 /*==========================================
 =============    ======
 ===========================================*/
+@media (max-width: 900px) {
+    .aboutMeContainer{
+        margin-top: 50%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+        align-items: center;
+    }
+    .left{
+        width: 40%;
+        margin-right: 2rem;
+
+    }
+    .aboutSubtitle {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .skills{
+        font-size: 4rem;
+    }
+    .aboutTitle {
+       font-size:3rem;
+       text-align: center;
+    }
+    .tecnolog{
+       margin-top: 0rem;
+       padding-bottom: .5rem; 
+       text-align: center;
+    }
+    .fondoBar {
+        display: flex;
+        width: 90%;
+        background-color: #e7e7e7;
+        padding-left: 0;
+        height: 1rem;
+    }
+  
+
+  }

@@ -13,8 +13,6 @@ justify-content: start;
 margin-top: 0;
 text-decoration: underline;
 background-color:transparent ;
-
-
 }
 
 .navbar {
@@ -70,6 +68,6 @@ background-color:transparent ;
   width: 100%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color:transparent ;
 }
