@@ -78,12 +78,11 @@ b{background-color: transparent;
 
   .project {  
     font-size: 1.25rem;
-
     justify-content: center;
   }
   .projectDate {
     font-size: .7rem;
-    margin-left: 0%;
+    margin-left: 2%
   }
   .projectDet {
   display: none;
@@ -93,6 +92,10 @@ b{background-color: transparent;
   }
   .projectDet2 {
     font-size: .5rem;
-    margin-left: 0%
+    margin-left: 2%
+  }
+  .carousel-inner {
+    width: 100%;
+    margin: auto;
   }
 }
