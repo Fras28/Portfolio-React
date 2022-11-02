@@ -1,78 +1,104 @@
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 .d-block {
   width: 80%;
+  max-height:400px ;
   margin: auto;
   overflow: hidden;
+  margin-bottom: 0;
+}
+.carousel-item{
+  margin: auto;
+  margin-right: -100%;
+}
+.carousel-item:hover{
+  height:100%;
+}
+.carousel-inner {
+  margin: auto;
 }
 
-.carousel-inner {
+.backInfo1,.backInfo2,.backInfo3,.backInfo4{
+  background-color: transparent;
+  background-color: rgb(0, 20, 38);
   width: 80%;
   margin: auto;
-
+  border-left: solid white ;
+  border-right: solid white ;
+  border-bottom:solid white ;
+  margin-top: 0;
 }
-
-
+.backInfo2{
+  background-color: #370D0F;
+}
+.backInfo3{
+  background-color: #191262;
+}
+.backInfo4{
+  background-color: #060709;
+}
 .project {
-  position: absolute;
-  align-items: center;
   font-family: DarkM;
   color: rgb(255, 255, 255);
-  display: flex;
   justify-content: center;
-  font-size: 6rem;
-  background-color: rgba(0, 0, 0, 0.544);
-  width: 80%;
-  margin-left: 10%;
-  padding-bottom: 100%;
-  box-shadow: 8px 8px 16px #727272, -8px -8px 16px #727272;
+  font-size: 2rem;
+  width: 100%;
+  padding-left: 2rem;
+  background-color: transparent;
+margin-left: 10%;
+
 }
 .projectDate {
-  position: absolute;
   background-color: transparent;
   align-items: center;
   color: white;
-  padding: 1rem 1rem 1rem 2rem;
   font-family: "Vollkorn", serif;
-  width: 80%;
-  margin-left: 10%;
+  font-size: 1rem;
+  padding-right: 0;
+  margin-left: 13%;
 }
 .projectDet {
-  position: absolute;
   background-color: transparent;
   width: 100%;
-  margin-top: 15%;
   font-family: "Vollkorn", serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: white;
   padding-left: 2rem;
   width: 80%;
   margin-left: 10%;
+  
+  
 }
 .projectDet1 {
-  position: absolute;
   background-color: transparent;
   width: 100%;
-  margin-top: 22%;
   font-family: "Vollkorn", serif;
-  font-size: 1.25rem;
-  color: white;
-  padding-left: 2rem;
-  width: 80%;
-  margin-left: 10%;
-}
-.projectDet2 {
-  position: absolute;
-  background-color: transparent;
-  width: 100%;
-  margin-top: 25.5%;
-  font-family: "Vollkorn", serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: white;
   padding-left: 2rem;
   width: 80%;
   margin-left: 10%;
 }
 
+.projectDet2 {
+  background-color: transparent;
+  width: 100%;
+  font-family: "Vollkorn", serif;
+  font-size: 1rem;
+  color: white;
+  padding-left: 2rem;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 3rem;
+}
+.carousel-indicators{
+  background-color: transparent;
+}
+.infoCarr{
+  width: 80%;
+  height:100%;
+  background-color: #727272;
+  margin: auto;
+}
 
 b{background-color: transparent;
 }

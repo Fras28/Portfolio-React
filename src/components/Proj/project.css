@@ -12,6 +12,8 @@
 
 .conteItemsCarrusel {
   margin-bottom: 10rem;
+  width: 80%;
+  margin: auto;
 }
 /*=======================
 ========card=========

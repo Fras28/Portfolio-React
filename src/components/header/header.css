@@ -96,6 +96,11 @@ a {
 .imgInicio:hover {
   background-position: center;
 }
+@media screen and (max-width: 1280px) {
+  #inicio{
+    margin-top: 240%;
+  }
+}
 
 @media screen and (max-width: 900px) {
   .card {
