@@ -12,6 +12,7 @@
     gap: 8rem;
     padding-bottom: 0;
     margin-bottom: 0;
+    margin-top: 5%;
 
 }
 /*==========================================
@@ -67,6 +68,7 @@ li{
     background-color: #e7e7e7;
     padding-left: 0;
     height: 1rem;
+
 }
 .barraHTML{
     width: 70%;
@@ -79,6 +81,8 @@ li{
    padding-top: .3rem;
     padding-left: 1rem;
     height: 1rem;
+    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+
 }
 .barraCSS{
     width: 60%;
@@ -91,6 +95,7 @@ li{
    padding-top: .3rem;
     height: 1rem;
     padding-left: 1rem;
+    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 .barraReact{
  
@@ -105,6 +110,7 @@ li{
    padding-top: .3rem;
     height: 1rem;
     padding-left: 1rem;
+    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 .barraRedux{
     width: 70%;
@@ -117,6 +123,7 @@ li{
    padding-top: .3rem;
     height: 1rem;
     padding-left: 1rem;
+     box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 .barraJS{
     width: 85%;
@@ -129,6 +136,7 @@ li{
    padding-top: .3rem;
     height: 1rem;
     padding-left: 1rem;
+     box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 .barraBoot{
     width: 80%;
@@ -141,6 +149,7 @@ li{
    padding-top: .3rem;
     height: 1rem;
     padding-left: 1rem;
+    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 
 .barraNode{
@@ -155,6 +164,7 @@ li{
    padding-top: .3rem;
     height: 1rem;
     padding-left: 1rem;
+    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 .barraTS{
     width: 70%;
@@ -167,6 +177,7 @@ li{
    padding-top: .3rem;
     height: 1rem;
     padding-left: 1rem;
+    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 .barraPostgre{
     width: 65%;
@@ -180,6 +191,7 @@ li{
    padding-top: .3rem;
     height: 1rem;
     padding-left: 1rem;
+    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 .barraSeque{
     width: 60%;
@@ -193,6 +205,7 @@ li{
     padding-top: .3rem;
     height: 1rem;
     padding-left: 1rem;
+    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 .barraGit{
     width: 60%; 
@@ -206,6 +219,7 @@ li{
     padding-top: .3rem;
     height: 1rem;
     padding-left: 1rem;
+    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 
 }
 
@@ -263,6 +277,7 @@ li{
     .left{
         width: 40%;
         margin-right: 2rem;
+        margin-left: -8%;
 
     }
     .aboutSubtitle {
@@ -271,6 +286,7 @@ li{
     }
     .skills{
         font-size: 4rem;
+    
     }
     .aboutTitle {
        font-size:3rem;
@@ -288,6 +304,7 @@ li{
         padding-left: 0;
         height: 1rem;
     }
-  
-
+    .row{
+        width: 150%;
+    }
   }

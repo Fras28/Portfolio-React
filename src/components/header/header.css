@@ -10,7 +10,7 @@
 #inicio{
   width: 90%;
   margin: auto;
-  margin-top: 150%;
+  margin-top: 160%;
 }
 
 
@@ -45,6 +45,7 @@
   text-decoration: underline;
   margin-bottom: 0%;
 }
+
 .subtitle {
   font-family: "Vollkorn", serif;
   font-size: 1.5rem;
@@ -124,5 +125,6 @@ a {
   .card {
     margin-top: 680%;
   }
+  
 }
 /*================ BACKGROUND ============*/

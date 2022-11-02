@@ -8,7 +8,9 @@
 .carousel-inner {
   width: 80%;
   margin: auto;
+
 }
+
 
 .project {
   position: absolute;
@@ -22,6 +24,7 @@
   width: 80%;
   margin-left: 10%;
   padding-bottom: 100%;
+  box-shadow: 8px 8px 16px #727272, -8px -8px 16px #727272;
 }
 .projectDate {
   position: absolute;
