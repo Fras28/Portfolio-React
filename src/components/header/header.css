@@ -20,18 +20,17 @@
 }
 
 .card {
-  width: 100%;
+  width: 99%;
   height: 100vh;
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: row;
-  padding-left: 5%;
-  padding-right: 5%;
   background-color: transparent;
   margin-top: 30%;
 }
 /*==================== card left ===============*/
+
 .cardLeft {
   text-align: start;
   font-family: DarkM;
@@ -78,12 +77,12 @@ font-size: 1.25rem;
   height: 550px;
   border-radius: 48% 48% 1% 1%;
   display: flex;
+  margin: auto;
 }
-
-.imgInicio {
+.contPic{
   height: 550px;
-  border-radius: 48% 48% 1% 1%;
-  display: flex;
+  width: 350px;
+justify-content: left;
 }
 
 .myInfo {

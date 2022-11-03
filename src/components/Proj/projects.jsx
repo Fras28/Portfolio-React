@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./project.css";
-import { arrProj } from "../assets/infoProjects";
-import prevArrow from "../assets/prevArrow.png";
-import nextArrow from "../assets/nextArrow.png";
 import { Carousel } from "../carrusel/Carusel";
 
 

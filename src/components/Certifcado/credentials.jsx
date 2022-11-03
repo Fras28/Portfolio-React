@@ -1,9 +1,9 @@
 import React from "react";
 import "./credentials.css";
-import Linkdin from "../assets/LinkedIn_Logo.svg.png"
-import Henry from "../assets/Henry.png"
-import EFSET from "../assets/EFSET.png"
-import separador from "../assets/separador.png"
+// import Linkdin from "../assets/LinkedIn_Logo.svg.png"
+// import Henry from "../assets/Henry.png"
+// import EFSET from "../assets/EFSET.png"
+// import separador from "../assets/separador.png"
 
 
 export const Certificates = () => {

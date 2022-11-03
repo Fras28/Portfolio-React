@@ -19,10 +19,10 @@ background-color:transparent ;
   position: sticky;
   top: 0px;
   z-index: 100;
-  height: 3%;
-  white-space: nowrap;
-  padding-top: 1.5%;
+ white-space: nowrap;
+  padding-top: .5%;
   background-color:transparent ;
+  background-color:#282828;
 }
 .navStart{
   padding-top: 0;

@@ -1,0 +1,19 @@
+.foot{
+    position: sticky;
+    top: 75%;
+    z-index: 150;
+    background-color: transparent;
+
+
+   
+}
+.toTopBtn{
+    width: 60px;
+    height: 60px;
+}
+
+.btnTop{
+   margin-left: 93%;
+   border-radius: 50%;
+   background-color: aqua;
+}
