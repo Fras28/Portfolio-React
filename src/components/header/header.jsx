@@ -5,6 +5,16 @@ import gitImg from "../assets/iconosSkills/gitHub.png";
 import linkdin from "../assets/linkdin.png";
 
 const Header = () => {
+// let picProfile = "off" ;
+// const showPic = ()=>{
+//   console.log(picProfile)
+//  picProfile === "off"?  picProfile= "on":
+//  picProfile= "off";
+// };
+
+// let handleOnChange = showPic;
+
+
   return (
     <>
       <header id="inicio">
@@ -18,7 +28,10 @@ const Header = () => {
               </p>
             </div>
             <div className="borde">
-              <img className="imgInicio" src={fotoPerfil} alt="" />
+              {/* { picProfile === "on"? <img className="imgInicio" src={fotoPerfil} alt="" />:
+              <img className="imgInicio"  src="https://img1.freepng.es/20180424/cye/kisspng-line-personalized-business-cards-5adf028a770f67.2193328615245646184877.jpg" alt="" />}
+            <button onClick={showPic}> Show Pic</button> */}
+            <img className="imgInicio" src={fotoPerfil} alt="" />
             </div>
           </div>
         </div>

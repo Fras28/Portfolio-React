@@ -105,7 +105,7 @@ li{
 }
 
 .aboutMe:hover .barraCSS{
-    width: 60%;
+    width: 70%;
     transition: width 1.7s ease-in-out;
 }
 
@@ -377,4 +377,40 @@ li{
     .row{
         width: 150%;
     }
+
+
+  .barraHTML{
+        width: 80%;
+    }
+    .barraCSS{
+        width: 70%;
+    }
+    .barraReact{
+        width: 70%;
+    }
+    .barraRedux{
+        width: 70%;
+    }
+    .barraJS{
+        width: 85%;
+    }
+    .barraBoot{
+        width: 80%;
+    }
+    .barraNode{
+        width: 60%;
+    }
+    .barraTS{
+        width: 70%;
+    }
+    .barraPostgre{
+        width: 65%;
+    }
+    .barraSeque{
+        width: 60%;
+    }
+    .barraGit{
+        width: 60%;
+    }
+
   }

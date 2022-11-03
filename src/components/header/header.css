@@ -80,6 +80,12 @@ font-size: 1.25rem;
   display: flex;
 }
 
+.imgInicio {
+  height: 550px;
+  border-radius: 48% 48% 1% 1%;
+  display: flex;
+}
+
 .myInfo {
   max-width: 80%;
   margin: auto;

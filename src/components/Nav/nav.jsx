@@ -20,7 +20,8 @@ export const Nav = () => {
           </a>
           <a
             className="buttonText"
-            Target="_blank"
+            target="_blank"
+            rel="noreferrer"
             href="mailto:fselvarolo28@gmail.com"
           >
             <b className="outLineButton">Get in touch</b>

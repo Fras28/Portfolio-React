@@ -1,6 +1,6 @@
 import React from "react";
 import BBimg from "../assets/bbPic.png"
-import GamesImg from "../assets/GameU.jpg"
+import GamesImg from "../assets/imgVideogames.png"
 import CountryImg from "../assets/Countries.png"
 import SvalyImg from "../assets/svaly1.jpg"
 import "./carusel.css"
