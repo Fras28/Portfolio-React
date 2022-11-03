@@ -18,7 +18,9 @@ export const Carousel = ()=>{
   <div className="carousel-inner">
     <a href="https://blockbuster-pf.vercel.app/" target="_blank" rel="noreferrer" >
     <div className="carousel-item active">
+      <div className="containerPic">
       <img src={BBimg} className="d-block" alt="..."/>
+      </div>
       <div className="backInfo1">
         <p className="projectDate">10 / 10/ 22</p>
       <p className="project"> Block Buster</p>
@@ -32,7 +34,7 @@ export const Carousel = ()=>{
     </div> 
     </a>
     <div className="carousel-item">
-      <img src={GamesImg} className="d-block " alt="..."/>
+    <div className="containerPic">  <img src={GamesImg} className="d-block " alt="..."/></div>
       <div className="backInfo2">
 
         <p className="projectDate">25 / 7 / 22</p>
@@ -47,7 +49,7 @@ export const Carousel = ()=>{
       </div>
     </div>
     <div className="carousel-item">
-      <img src={CountryImg} className="d-block" alt="..."/>
+    <div className="containerPic"><img src={CountryImg} className="d-block" alt="..."/></div>
       <div className="backInfo3">
       <p className="projectDate">25 / 8 / 22</p>
     <p className="project">Countries</p>
@@ -59,7 +61,7 @@ export const Carousel = ()=>{
       
     </div>
     <div className="carousel-item">
-      <img src={SvalyImg} className="d-block" alt="..."/>
+    <div className="containerPic"><img src={SvalyImg} className="d-block" alt="..."/></div>
       <div className="backInfo4">
       <p className="projectDate">25 / 10 / 20</p>
         

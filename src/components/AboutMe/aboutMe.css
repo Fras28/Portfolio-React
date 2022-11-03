@@ -71,7 +71,7 @@ li{
 
 }
 .barraHTML{
-    width: 70%;
+    width: 10%;
     background-color: orangered; 
     vertical-align: middle;
     text-align: left;
@@ -82,10 +82,16 @@ li{
     padding-left: 1rem;
     height: 1rem;
     box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+    margin-right: 15px;
+    transition: margin-right 2s ease-in-out;
 
 }
+.aboutMe:hover .barraHTML{
+    width: 80%;
+    transition: width 1.7s ease-in-out;
+}
 .barraCSS{
-    width: 60%;
+    width: 10%;
     background-color:#254BDD; 
     vertical-align: middle;
     text-align: left;
@@ -97,9 +103,15 @@ li{
     padding-left: 1rem;
     box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
+
+.aboutMe:hover .barraCSS{
+    width: 60%;
+    transition: width 1.7s ease-in-out;
+}
+
 .barraReact{
  
-    width: 70%;
+    width: 10%;
     background-color:#5ED3F3; 
     vertical-align: middle;
     height:.6rem;
@@ -112,8 +124,15 @@ li{
     padding-left: 1rem;
     box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
-.barraRedux{
+
+
+.aboutMe:hover .barraReact{
     width: 70%;
+    transition: width 1.7s ease-in-out;
+}
+
+.barraRedux{
+    width: 10%;
     background-color:#7649BB; 
     vertical-align: middle;
     text-align: left;
@@ -125,8 +144,15 @@ li{
     padding-left: 1rem;
      box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
+
+.aboutMe:hover .barraRedux{
+    width: 70%;
+    transition: width 1.7s ease-in-out;
+}
+
+
 .barraJS{
-    width: 85%;
+    width: 10%;
     background-color:#EFD81D; 
     vertical-align: middle;
     text-align: left;
@@ -138,8 +164,15 @@ li{
     padding-left: 1rem;
      box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
+
+.aboutMe:hover .barraJS{
+    width: 85%;
+    transition: width 1.7s ease-in-out;
+}
+
+
 .barraBoot{
-    width: 80%;
+    width: 10%;
     background-color:#7411F1; 
     vertical-align: middle;
     text-align: left;
@@ -152,8 +185,15 @@ li{
     box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 
+.aboutMe:hover .barraBoot{
+    width: 80%;
+    transition: width 1.7s ease-in-out;
+}
+
+
+
 .barraNode{
-    width: 60%;
+    width: 10%;
     background-color:#8BBF3D; 
     vertical-align: middle;
     height: 1rem;
@@ -166,8 +206,14 @@ li{
     padding-left: 1rem;
     box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
+
+.aboutMe:hover .barraNode{
+    width: 60%;
+    transition: width 1.7s ease-in-out;
+}
+
 .barraTS{
-    width: 70%;
+    width: 10%;
     background-color:#2F74C0; 
     vertical-align: middle;
     text-align: left;
@@ -179,8 +225,14 @@ li{
     padding-left: 1rem;
     box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
+
+.aboutMe:hover .barraTS{
+    width: 70%;
+    transition: width 1.7s ease-in-out;
+}
+
 .barraPostgre{
-    width: 65%;
+    width: 10%;
     background-color:#31648C; 
     vertical-align: middle;
     height: 1rem;
@@ -193,8 +245,15 @@ li{
     padding-left: 1rem;
     box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
+
+.aboutMe:hover .barraPostgre{
+    width: 65%;
+    transition: width 1.7s ease-in-out;
+}
+
+
 .barraSeque{
-    width: 60%;
+    width: 10%;
     background-color:#254BDD; 
     vertical-align: middle;
     height: 1rem;
@@ -207,8 +266,14 @@ li{
     padding-left: 1rem;
     box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
+
+.aboutMe:hover .barraSeque{
+    width: 60%;
+    transition: width 1.7s ease-in-out;
+}
+
 .barraGit{
-    width: 60%; 
+    width: 10%; 
     background-color:black; 
     vertical-align: middle;
     height: 1rem;
@@ -221,6 +286,11 @@ li{
     padding-left: 1rem;
     box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 
+}
+
+.aboutMe:hover .barraGit{
+    width: 60%;
+    transition: width 1.7s ease-in-out;
 }
 
 .skillLvl{
