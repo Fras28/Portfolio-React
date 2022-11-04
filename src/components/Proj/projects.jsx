@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./project.css";
 import { Carousel } from "../carrusel/Carusel";
 

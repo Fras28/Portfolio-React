@@ -1,7 +1,5 @@
 import React from "react";
 import "./aboutMe.css";
-
-import { FaReact } from "react-icons/fa";
 import htmlImg from "../assets/iconosSkills/html.png";
 import css3 from "../assets/iconosSkills/css-3.png";
 import reactImg from "../assets/iconosSkills/React.png";

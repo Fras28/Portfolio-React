@@ -1,8 +1,6 @@
 import React from "react";
 import "./header.css";
 import fotoPerfil from "../assets/Foto_CV.png";
-import gitImg from "../assets/iconosSkills/gitHub.png";
-import linkdin from "../assets/linkdin.png";
 import { useState } from "react";
 
 const Header = () => {
