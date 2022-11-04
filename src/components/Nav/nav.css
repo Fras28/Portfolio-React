@@ -12,7 +12,6 @@ color: goldenrod;
 justify-content: start;
 margin-top: 0;
 text-decoration: underline;
-background-color:transparent ;
 }
 
 .navbar {
@@ -21,18 +20,15 @@ background-color:transparent ;
   z-index: 100;
  white-space: nowrap;
   padding-top: .5%;
-  background-color:transparent ;
   background-color:#282828;
 }
 .navStart{
   padding-top: 0;
-  background-color:transparent ;
 }
 .navEnd{
  justify-content: space-between;
  gap: .2rem;
  display: flex;
- background-color:transparent ;
 }
 
 .navbar .buttonText {
@@ -44,17 +40,14 @@ background-color:transparent ;
   transition: 0.3s ease-out all;
   font-family: 'Vollkorn', serif;
   filter: invert(1%);
-  background-color:transparent ;
 }
 
 .outLineButton{
     border: solid 4px white;
-    background-color:transparent ;
 }
 .navbar b {
     padding: 9px 24px 8px 24px;
     border-radius: 4px;
-    background-color:transparent ;
   }
 
 .navbar b:hover {
@@ -67,7 +60,6 @@ background-color:transparent ;
   margin: auto;
   display: flex;
   justify-content: space-around;
-  background-color:transparent ;
 }
 @media (max-width: 900px) {
  .myName{
@@ -81,11 +73,9 @@ font-size: 2rem;
   height: 3%;
   white-space: nowrap;
   padding-top: 1.5%;
-  background-color:transparent ;
 }
 .navStart{
   padding-top: 0;
-  background-color:transparent ;
 }
 .navEnd{
   display: none;
@@ -104,6 +94,5 @@ font-size: 2rem;
   margin: auto;
   display: flex;
   justify-content: space-around;
-  background-color:transparent ;
 }
 }

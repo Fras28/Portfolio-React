@@ -27,7 +27,6 @@
 }
 
 .backInfo1,.backInfo2,.backInfo3,.backInfo4{
-  background-color: transparent;
   background-color: rgb(0, 20, 38);
   width: 80%;
   margin: auto;
@@ -52,12 +51,10 @@
   font-size: 2rem;
   width: 100%;
   padding-left: 2rem;
-  background-color: transparent;
 margin-left: 10%;
 
 }
 .projectDate {
-  background-color: transparent;
   align-items: center;
   color: white;
   font-family: "Vollkorn", serif;
@@ -66,7 +63,7 @@ margin-left: 10%;
   margin-left: 13%;
 }
 .projectDet {
-  background-color: transparent;
+
   width: 100%;
   font-family: "Vollkorn", serif;
   font-size: 1.25rem;
@@ -78,7 +75,6 @@ margin-left: 10%;
   
 }
 .projectDet1 {
-  background-color: transparent;
   width: 100%;
   font-family: "Vollkorn", serif;
   font-size: 1rem;
@@ -89,7 +85,6 @@ margin-left: 10%;
 }
 
 .projectDet2 {
-  background-color: transparent;
   width: 100%;
   font-family: "Vollkorn", serif;
   font-size: 1rem;
@@ -99,17 +94,11 @@ margin-left: 10%;
   margin-left: 10%;
   margin-bottom: 3rem;
 }
-.carousel-indicators{
-  background-color: transparent;
-}
+
 .infoCarr{
   width: 80%;
   height:100%;
-  background-color: #727272;
   margin: auto;
-}
-
-b{background-color: transparent;
 }
 
 @media (max-width: 900px) {
