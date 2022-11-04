@@ -25,7 +25,7 @@ const showPic = ()=>{
   return (
     <>
       <header id="inicio">
-        <div className="contemedorCard">
+        <div className="contenedorCard">
           <div className="card">
             <div className="cardLeft">
               <p className="titleCard">Full Stack Developer</p>

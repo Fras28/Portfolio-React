@@ -5,7 +5,7 @@
     margin: auto;
 }
 .aboutMeContainer{
-    width: 90%;
+    width: 100%;
     height: 100%;
     display: flex; /* display block responsive  */
     justify-content:center;
@@ -342,13 +342,13 @@ li{
         display: flex;
         flex-direction: column-reverse;
         margin: auto;
+        width: 100%;
         align-items: center;
-        margin-left: 17%;
+
     }
     .left{
-        width: 60%;
-        margin-right: 2rem;
-        margin-left: -16%;
+        width: 45%;
+        margin-right: 24%;
     }
     .right{
    

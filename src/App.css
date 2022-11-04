@@ -1,7 +1,7 @@
 .App {
 width: 100%;
-justify-content: center;
-
+display: flex;
+flex-direction: column;
 }
 
 .App-logo {
@@ -31,7 +31,8 @@ justify-content: center;
     transform: rotate(360deg);
   }
 }
-
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
+  .App {
+margin-left: 15%;}
 
 }
