@@ -4,7 +4,7 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 
-.backlProj{
+.backlProj {
   width: 100%;
   margin: auto;
   margin-top: 5%;
@@ -77,7 +77,7 @@
   opacity: 0.3;
 }
 @media (max-width: 900px) {
-  .conteItemsCarrusel{
+  .conteItemsCarrusel {
     width: 60%;
     margin: auto;
     align-items: center;
@@ -85,5 +85,4 @@
   .titleCardP {
     font-size: 4rem;
   }
-
 }

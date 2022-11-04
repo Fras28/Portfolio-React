@@ -1,21 +1,20 @@
-.foot{
-    position: sticky;
-    top: 75%;
-    z-index: 10;
-
+.foot {
+  position: sticky;
+  top: 75%;
+  z-index: 10;
 }
-.toTopBtn{
-    width: 60px;
-    height: 60px;
+.toTopBtn {
+  width: 60px;
+  height: 60px;
 }
 
-.btnTop{
-   margin-left: 93%;
-   border-radius: 50%;
+.btnTop {
+  margin-left: 93%;
+  border-radius: 50%;
 }
 
 @media (max-width: 900px) {
-    .foot{
-      display: none;
-    }
-    }
+  .foot {
+    display: none;
+  }
+}

@@ -7,7 +7,7 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 /* From uiverse.io by @alexruix */
-#inicio{
+#inicio {
   margin: auto;
   /* margin-top: 150%; */
 }
@@ -18,10 +18,10 @@
   min-height: 365.22;
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   background-color: transparent;
-  border:none;
+  border: none;
   margin-bottom: 10%;
   margin-top: 5%;
 }
@@ -34,7 +34,7 @@
   color: white;
   width: 45%;
 }
-.contact{
+.contact {
   font-size: medium;
   font-family: "Vollkorn", serif;
   text-decoration: underline;
@@ -46,6 +46,7 @@
   font-size: 1.5rem;
   margin-top: 10%;
   line-height: 2.5rem;
+  text-align: start;
 }
 .titleCard {
   margin-bottom: 0;
@@ -58,10 +59,10 @@
   white-space: pre;
 }
 
-.contact{
-font-size: 1.25rem;
+.contact {
+  font-size: 1.25rem;
 }
-.linkC{
+.linkC {
   margin-left: 1rem;
 }
 
@@ -72,7 +73,7 @@ font-size: 1.25rem;
   border-radius: 48% 48% 1% 1%;
   align-items: center;
 }
-.contPic{
+.contPic {
   height: 550px;
   width: 350px;
 }
@@ -96,9 +97,8 @@ a {
 
 @media screen and (max-width: 900px) {
   .card {
-    overflow:unset;
+    overflow: unset;
     flex-direction: column-reverse;
-
   }
   .myInfo {
     font-size: small;
@@ -112,12 +112,15 @@ a {
     height: 20rem;
   }
   .subtitle {
-   text-align: center;
+    padding-left: 10%;
+    padding-right: 1%;
   }
-
+  .cardLeft {
+    text-align: center;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 640px) {
-
 }
 /*================ BACKGROUND ============*/

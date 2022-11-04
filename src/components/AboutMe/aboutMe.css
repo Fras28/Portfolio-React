@@ -1,424 +1,404 @@
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 
-.aboutMe{
-    width: 90%;
-    margin: auto;
+.aboutMe {
+  width: 90%;
+  margin: auto;
 }
-.aboutMeContainer{
-    width: 100%;
-    height: 100%;
-    display: flex; /* display block responsive  */
-    justify-content:center;
-    gap: 8rem;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    margin-top: 5%;
-
+.aboutMeContainer {
+  width: 100%;
+  height: 100%;
+  display: flex; /* display block responsive  */
+  justify-content: center;
+  gap: 8rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 5%;
 }
 /*==========================================
 ============= Lado izquierdo About me ======
 ===========================================*/
 
-.left{
-    width: 45%;
-    height: 100%;
-    padding-right: 2%;
+.left {
+  width: 45%;
+  height: 100%;
+  padding-right: 2%;
 }
-.iconTecno{
-    width: 50px;
-    margin-bottom: .5rem;
+.iconTecno {
+  width: 50px;
+  margin-bottom: 0.5rem;
 }
-.skills{
-    text-align: center;
-    font-family: DarkM;
-    font-size: 7rem;
-    color: white;
-    height: 500px;
-    height: 100%;
-    padding-top: 0;
-    margin-bottom: 0%;
-    margin-top: 0;
+.skills {
+  text-align: center;
+  font-family: DarkM;
+  font-size: 7rem;
+  color: white;
+  height: 500px;
+  height: 100%;
+  padding-top: 0;
+  margin-bottom: 0%;
+  margin-top: 0;
 }
-.row{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-    justify-content: left;
-    padding-top: 0;
-    line-height: .5rem;
-    list-style:none;
-   
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: left;
+  padding-top: 0;
+  line-height: 0.5rem;
+  list-style: none;
 }
-li{
-    list-style:none;
+li {
+  list-style: none;
 }
-.tecnology{
-    color: white;
-    font-family: 'Vollkorn', serif;
-    font-size: 1rem;
-   margin-bottom: 0;
-   margin-top: 1rem;
-   padding-bottom: .5rem;  
-}
-
-.fondoBar{
-    display: flex;
-    width: 100%;
-    background-color: #e7e7e7;
-    padding-left: 0;
-    height: 1rem;
-
-}
-.barraHTML{
-    width: 10%;
-    background-color: orangered; 
-    vertical-align: middle;
-    text-align: left;
-    font-family: 'Vollkorn', serif;
-    font-size: 1rem;
-    color: white;
-   padding-top: .3rem;
-    padding-left: 1rem;
-    height: 1rem;
-    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
-    margin-right: 15px;
-    transition: margin-right 2s ease-in-out;
-
-}
-.aboutMe:hover .barraHTML{
-    width: 80%;
-    transition: width 1.7s ease-in-out;
-}
-.barraCSS{
-    width: 10%;
-    background-color:#254BDD; 
-    vertical-align: middle;
-    text-align: left;
-    font-family: 'Vollkorn', serif;
-    font-size: small;
-    color: white;
-   padding-top: .3rem;
-    height: 1rem;
-    padding-left: 1rem;
-    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+.tecnology {
+  color: white;
+  font-family: "Vollkorn", serif;
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
 }
 
-.aboutMe:hover .barraCSS{
-    width: 70%;
-    transition: width 1.7s ease-in-out;
+.fondoBar {
+  display: flex;
+  width: 100%;
+  background-color: #e7e7e7;
+  padding-left: 0;
+  height: 1rem;
+}
+.barraHTML {
+  width: 10%;
+  background-color: orangered;
+  vertical-align: middle;
+  text-align: left;
+  font-family: "Vollkorn", serif;
+  font-size: 1rem;
+  color: white;
+  padding-top: 0.3rem;
+  padding-left: 1rem;
+  height: 1rem;
+  box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+  margin-right: 15px;
+  transition: margin-right 2s ease-in-out;
+}
+.aboutMe:hover .barraHTML {
+  width: 80%;
+  transition: width 1.7s ease-in-out;
+}
+.barraCSS {
+  width: 10%;
+  background-color: #254bdd;
+  vertical-align: middle;
+  text-align: left;
+  font-family: "Vollkorn", serif;
+  font-size: small;
+  color: white;
+  padding-top: 0.3rem;
+  height: 1rem;
+  padding-left: 1rem;
+  box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 
-.barraReact{
- 
-    width: 10%;
-    background-color:#5ED3F3; 
-    vertical-align: middle;
-    height:.6rem;
-    text-align: left;
-    font-family: 'Vollkorn', serif;
-    font-size: small;
-    color: black;
-   padding-top: .3rem;
-    height: 1rem;
-    padding-left: 1rem;
-    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+.aboutMe:hover .barraCSS {
+  width: 70%;
+  transition: width 1.7s ease-in-out;
 }
 
-
-.aboutMe:hover .barraReact{
-    width: 70%;
-    transition: width 1.7s ease-in-out;
+.barraReact {
+  width: 10%;
+  background-color: #5ed3f3;
+  vertical-align: middle;
+  height: 0.6rem;
+  text-align: left;
+  font-family: "Vollkorn", serif;
+  font-size: small;
+  color: black;
+  padding-top: 0.3rem;
+  height: 1rem;
+  padding-left: 1rem;
+  box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 
-.barraRedux{
-    width: 10%;
-    background-color:#7649BB; 
-    vertical-align: middle;
-    text-align: left;
-    font-family: 'Vollkorn', serif;
-    font-size: small;
-    color: white;
-   padding-top: .3rem;
-    height: 1rem;
-    padding-left: 1rem;
-     box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+.aboutMe:hover .barraReact {
+  width: 70%;
+  transition: width 1.7s ease-in-out;
 }
 
-.aboutMe:hover .barraRedux{
-    width: 70%;
-    transition: width 1.7s ease-in-out;
+.barraRedux {
+  width: 10%;
+  background-color: #7649bb;
+  vertical-align: middle;
+  text-align: left;
+  font-family: "Vollkorn", serif;
+  font-size: small;
+  color: white;
+  padding-top: 0.3rem;
+  height: 1rem;
+  padding-left: 1rem;
+  box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 
-
-.barraJS{
-    width: 10%;
-    background-color:#EFD81D; 
-    vertical-align: middle;
-    text-align: left;
-    font-family: 'Vollkorn', serif;
-    font-size: small;
-    color: black;
-   padding-top: .3rem;
-    height: 1rem;
-    padding-left: 1rem;
-     box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+.aboutMe:hover .barraRedux {
+  width: 70%;
+  transition: width 1.7s ease-in-out;
 }
 
-.aboutMe:hover .barraJS{
-    width: 85%;
-    transition: width 1.7s ease-in-out;
+.barraJS {
+  width: 10%;
+  background-color: #efd81d;
+  vertical-align: middle;
+  text-align: left;
+  font-family: "Vollkorn", serif;
+  font-size: small;
+  color: black;
+  padding-top: 0.3rem;
+  height: 1rem;
+  padding-left: 1rem;
+  box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 
-
-.barraBoot{
-    width: 10%;
-    background-color:#7411F1; 
-    vertical-align: middle;
-    text-align: left;
-    font-family: 'Vollkorn', serif;
-    font-size: small;
-    color: white;
-   padding-top: .3rem;
-    height: 1rem;
-    padding-left: 1rem;
-    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+.aboutMe:hover .barraJS {
+  width: 85%;
+  transition: width 1.7s ease-in-out;
 }
 
-.aboutMe:hover .barraBoot{
-    width: 80%;
-    transition: width 1.7s ease-in-out;
+.barraBoot {
+  width: 10%;
+  background-color: #7411f1;
+  vertical-align: middle;
+  text-align: left;
+  font-family: "Vollkorn", serif;
+  font-size: small;
+  color: white;
+  padding-top: 0.3rem;
+  height: 1rem;
+  padding-left: 1rem;
+  box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 
-
-
-.barraNode{
-    width: 10%;
-    background-color:#8BBF3D; 
-    vertical-align: middle;
-    height: 1rem;
-    text-align: left;
-    font-family: 'Vollkorn', serif;
-    font-size: small;
-    color: black;
-   padding-top: .3rem;
-    height: 1rem;
-    padding-left: 1rem;
-    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+.aboutMe:hover .barraBoot {
+  width: 80%;
+  transition: width 1.7s ease-in-out;
 }
 
-.aboutMe:hover .barraNode{
-    width: 60%;
-    transition: width 1.7s ease-in-out;
+.barraNode {
+  width: 10%;
+  background-color: #8bbf3d;
+  vertical-align: middle;
+  height: 1rem;
+  text-align: left;
+  font-family: "Vollkorn", serif;
+  font-size: small;
+  color: black;
+  padding-top: 0.3rem;
+  height: 1rem;
+  padding-left: 1rem;
+  box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 
-.barraTS{
-    width: 10%;
-    background-color:#2F74C0; 
-    vertical-align: middle;
-    text-align: left;
-    font-family: 'Vollkorn', serif;
-    font-size: small;
-    color: white;
-   padding-top: .3rem;
-    height: 1rem;
-    padding-left: 1rem;
-    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+.aboutMe:hover .barraNode {
+  width: 60%;
+  transition: width 1.7s ease-in-out;
 }
 
-.aboutMe:hover .barraTS{
-    width: 70%;
-    transition: width 1.7s ease-in-out;
+.barraTS {
+  width: 10%;
+  background-color: #2f74c0;
+  vertical-align: middle;
+  text-align: left;
+  font-family: "Vollkorn", serif;
+  font-size: small;
+  color: white;
+  padding-top: 0.3rem;
+  height: 1rem;
+  padding-left: 1rem;
+  box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 
-.barraPostgre{
-    width: 10%;
-    background-color:#31648C; 
-    vertical-align: middle;
-    height: 1rem;
-    text-align: left;
-    font-family: 'Vollkorn', serif;
-    font-size: small;
-    color: white;
-   padding-top: .3rem;
-    height: 1rem;
-    padding-left: 1rem;
-    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+.aboutMe:hover .barraTS {
+  width: 70%;
+  transition: width 1.7s ease-in-out;
 }
 
-.aboutMe:hover .barraPostgre{
-    width: 65%;
-    transition: width 1.7s ease-in-out;
+.barraPostgre {
+  width: 10%;
+  background-color: #31648c;
+  vertical-align: middle;
+  height: 1rem;
+  text-align: left;
+  font-family: "Vollkorn", serif;
+  font-size: small;
+  color: white;
+  padding-top: 0.3rem;
+  height: 1rem;
+  padding-left: 1rem;
+  box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 
-
-.barraSeque{
-    width: 10%;
-    background-color:#254BDD; 
-    vertical-align: middle;
-    height: 1rem;
-    text-align: left;
-    font-family: 'Vollkorn', serif;
-    font-size: small;
-    color: white;
-    padding-top: .3rem;
-    height: 1rem;
-    padding-left: 1rem;
-    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+.aboutMe:hover .barraPostgre {
+  width: 65%;
+  transition: width 1.7s ease-in-out;
 }
 
-.aboutMe:hover .barraSeque{
-    width: 60%;
-    transition: width 1.7s ease-in-out;
+.barraSeque {
+  width: 10%;
+  background-color: #254bdd;
+  vertical-align: middle;
+  height: 1rem;
+  text-align: left;
+  font-family: "Vollkorn", serif;
+  font-size: small;
+  color: white;
+  padding-top: 0.3rem;
+  height: 1rem;
+  padding-left: 1rem;
+  box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 
-.barraGit{
-    width: 10%; 
-    background-color:black; 
-    vertical-align: middle;
-    height: 1rem;
-    text-align: left;
-    font-family: 'Vollkorn', serif;
-    font-size: small;
-    color: white;
-    padding-top: .3rem;
-    height: 1rem;
-    padding-left: 1rem;
-    box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
-
+.aboutMe:hover .barraSeque {
+  width: 60%;
+  transition: width 1.7s ease-in-out;
 }
 
-.aboutMe:hover .barraGit{
-    width: 60%;
-    transition: width 1.7s ease-in-out;
+.barraGit {
+  width: 10%;
+  background-color: black;
+  vertical-align: middle;
+  height: 1rem;
+  text-align: left;
+  font-family: "Vollkorn", serif;
+  font-size: small;
+  color: white;
+  padding-top: 0.3rem;
+  height: 1rem;
+  padding-left: 1rem;
+  box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
 }
 
-.skillLvl{
-    color: white;
+.aboutMe:hover .barraGit {
+  width: 60%;
+  transition: width 1.7s ease-in-out;
 }
 
-.tecnolog{
-    color: white;
-    font-family: 'Vollkorn', serif;
-    font-size: 1rem;
-   margin-bottom: 0;
-   margin-top: 1rem;
-   padding-bottom: .5rem;  
+.skillLvl {
+  color: white;
 }
 
-
-
-
+.tecnolog {
+  color: white;
+  font-family: "Vollkorn", serif;
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
+}
 
 /*==========================================
 ============= Lado Derecho About me ======
 ===========================================*/
-.right{
-    text-align: center;
-    font-family: DarkM;
-    font-size: 7rem;
-    color: white;
-    width: 45%;
-    height: 500px;
-    height: 100%;
+.right {
+  text-align: center;
+  font-family: DarkM;
+  font-size: 7rem;
+  color: white;
+  width: 45%;
+  height: 500px;
+  height: 100%;
 }
-.aboutTitle{
-    margin-bottom: 0%;
-    margin-top: 0;
-    text-align: center;
+.aboutTitle {
+  margin-bottom: 0%;
+  margin-top: 0;
+  text-align: center;
 }
-.aboutSubtitle{
-    font-family: 'Vollkorn', serif;
-    font-size: 1.5rem;
-    text-align:start;
+.aboutSubtitle {
+  font-family: "Vollkorn", serif;
+  font-size: 1.5rem;
+  text-align: start;
 }
 
 /*==========================================
 =============    ======
 ===========================================*/
 @media (max-width: 900px) {
-    .aboutMeContainer{
-        margin-top: 50%;
-        display: flex;
-        flex-direction: column-reverse;
-        margin: auto;
-        width: 100%;
-        align-items: center;
-
-    }
-    .left{
-        width: 45%;
-        margin-right: 24%;
-    }
-    .right{
-   
-        width: 60%;
-        font-size: 1.5rem;
-
-    }
-    .aboutSubtitle {
-        font-size: 1rem;
-        text-align: center;
-    }
-    .skills{
-        font-size: 4rem;
-        margin-left: 48%;
-    
-    }
-    .aboutTitle {
-       font-size:3rem;
-       text-align: center;
-    }
-    .tecnolog{
-       margin-top: 0rem;
-       padding-bottom: .5rem; 
-       text-align: center;
-       margin-left: 28%;
-    }
-    .fondoBar {
-        display: flex;
-        width: 90%;
-        background-color: #e7e7e7;
-        padding-left: 0;
-        height: 1rem;
-    }
-    .row{
-        width: 150%;
-    }
-
-
-  .barraHTML{
-        width: 80%;
-    }
-    .barraCSS{
-        width: 70%;
-    }
-    .barraReact{
-        width: 70%;
-    }
-    .barraRedux{
-        width: 70%;
-    }
-    .barraJS{
-        width: 85%;
-    }
-    .barraBoot{
-        width: 80%;
-    }
-    .barraNode{
-        width: 60%;
-    }
-    .barraTS{
-        width: 70%;
-    }
-    .barraPostgre{
-        width: 65%;
-    }
-    .barraSeque{
-        width: 60%;
-    }
-    .barraGit{
-        width: 60%;
-    }
-
+  .aboutMeContainer {
+    margin-top: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+    width: 100%;
+    align-items: center;
   }
+  .left {
+    width: 45%;
+    margin-right: 24%;
+  }
+  .right {
+    width: 100%;
+    font-size: 2rem;
+  }
+  .aboutSubtitle {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 1%;
+  }
+  .skills {
+    font-size: 4rem;
+    margin-left: 48%;
+  }
+  .aboutTitle {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .tecnolog {
+    margin-top: 0rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    margin-left: 28%;
+  }
+  .fondoBar {
+    display: flex;
+    width: 90%;
+    background-color: #e7e7e7;
+    padding-left: 0;
+    height: 1rem;
+  }
+  .row {
+    width: 150%;
+  }
+
+  .barraHTML {
+    width: 80%;
+  }
+  .barraCSS {
+    width: 70%;
+  }
+  .barraReact {
+    width: 70%;
+  }
+  .barraRedux {
+    width: 70%;
+  }
+  .barraJS {
+    width: 85%;
+  }
+  .barraBoot {
+    width: 80%;
+  }
+  .barraNode {
+    width: 60%;
+  }
+  .barraTS {
+    width: 70%;
+  }
+  .barraPostgre {
+    width: 65%;
+  }
+  .barraSeque {
+    width: 60%;
+  }
+  .barraGit {
+    width: 60%;
+  }
+}

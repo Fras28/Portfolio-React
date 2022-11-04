@@ -6,7 +6,9 @@ export const Nav = () => {
     <nav className="navbar">
       <div className="contenedor">
         <div className="navStart">
-          <a href="#inicio"><p className="myName">Franco Selvarolo</p></a>
+          <a href="#inicio">
+            <p className="myName">Franco Selvarolo</p>
+          </a>
         </div>
         <div className="navEnd">
           <a className="buttonText" href="#aboutMe">
