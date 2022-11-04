@@ -64,6 +64,7 @@ text-decoration: underline;
 @media (max-width: 900px) {
  .myName{
 font-size: 2rem;
+margin-left: 29%;
 }
 
 .navbar {

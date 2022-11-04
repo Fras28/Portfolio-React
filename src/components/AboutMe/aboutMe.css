@@ -343,11 +343,17 @@ li{
         flex-direction: column-reverse;
         margin: auto;
         align-items: center;
+        margin-left: 17%;
     }
     .left{
-        width: 40%;
+        width: 60%;
         margin-right: 2rem;
-        margin-left: -8%;
+        margin-left: -16%;
+    }
+    .right{
+   
+        width: 60%;
+        font-size: 1.5rem;
 
     }
     .aboutSubtitle {
@@ -356,6 +362,7 @@ li{
     }
     .skills{
         font-size: 4rem;
+        margin-left: 48%;
     
     }
     .aboutTitle {
@@ -366,6 +373,7 @@ li{
        margin-top: 0rem;
        padding-bottom: .5rem; 
        text-align: center;
+       margin-left: 28%;
     }
     .fondoBar {
         display: flex;

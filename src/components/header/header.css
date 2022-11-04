@@ -115,6 +115,7 @@ a {
     overflow:unset;
     margin-top: 650%;
     flex-direction: column-reverse;
+    margin-left: 10%
   }
   .myInfo {
     font-size: small;
@@ -135,7 +136,8 @@ a {
 
 @media screen and (max-width: 640px) {
   .card {
-    margin-top: 680%;
+    margin-top: 640%;
+    margin-left: 12%;
   }
   
 }
