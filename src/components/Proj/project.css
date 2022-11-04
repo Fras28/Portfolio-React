@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 
 .backlProj{
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 5%;
 }
@@ -84,9 +84,6 @@
   }
   .titleCardP {
     font-size: 4rem;
-  }
-  .backlProj{
-    margin-left: 5%;
   }
 
 }
