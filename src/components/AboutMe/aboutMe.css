@@ -343,8 +343,9 @@ li {
   .aboutSubtitle {
     font-size: 1.5rem;
     text-align: center;
-    padding-left: 20%;
-    padding-right: 1%;
+    padding-left: 9%;
+    margin: auto;
+
   }
   .skills {
     font-size: 4rem;

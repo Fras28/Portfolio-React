@@ -111,20 +111,28 @@ a {
     overflow: unset;
     flex-direction: column-reverse;
   }
+  .cardPic{
+    height: 320px;
+    margin-bottom: 44.13px;
+  }
+
+  
   .myInfo {
     font-size: small;
     max-width: 100%;
   }
   .titleCard {
-    text-align: center;
+  text-align: center;
     font-size: 3rem;
+
   }
   .imgInicio {
     height: 20rem;
   }
   .subtitle {
-    padding-left: 10%;
-    padding-right: 1%;
+       padding-left: 9%;
+    text-align: center;
+    margin: auto;
   }
   .cardLeft {
     text-align: center;
