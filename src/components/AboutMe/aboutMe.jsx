@@ -36,34 +36,34 @@ export const AbourMe = () => {
             <li className="row">
               <img src={htmlImg} className="iconTecno" alt="..." />
               <div className="fondoBar">
-                <div className="barraHTML">Proficient</div>
+                <div className="barraHTML"><p>Proficient</p></div>
               </div>
             </li>
             <li className="row">
               <img src={css3} className="iconTecno" alt="..." />{" "}
               <div className="fondoBar">
-                <div className="barraCSS">Competent</div>
+                <div className="barraCSS"><p>Competent</p></div>
               </div>
             </li>
             <li className="row">
               {" "}
               <img src={reactImg} className="iconTecno" alt="..." />
               <div className="fondoBar">
-                <div className="barraReact">Competent</div>
+                <div className="barraReact"><p>Competent</p></div>
               </div>
             </li>
             <li className="row">
               <img src={reduxImg} className="iconTecno" alt="..." />
               <div className="fondoBar">
                 {" "}
-                <div className="barraRedux">Competent</div>
+                <div className="barraRedux"><p>Competent</p></div>
               </div>
             </li>
             <li className="row">
               <img src={jsImg} className="iconTecno" alt="..." />
               <div className="fondoBar">
                 {" "}
-                <div className="barraJS">Competent</div>
+                <div className="barraJS"><p>Competent</p></div>
               </div>
             </li>
             <li className="row">
@@ -75,33 +75,33 @@ export const AbourMe = () => {
             <li className="row">
               <img src={node} className="iconTecno" alt="..." />{" "}
               <div className="fondoBar">
-                <div className="barraNode"> Advanced Beginner</div>
+                <div className="barraNode"> <p>Advanced Beginner</p></div>
               </div>
             </li>
             <li className="row">
               <img src={typeImg} className="iconTecno" alt="..." />{" "}
               <div className="fondoBar">
-                <div className="barraTS"> Advanced Beginner</div>
+                <div className="barraTS"> <p>Advanced Beginner</p></div>
               </div>
             </li>
             <li className="row">
               <img src={postgres} className="iconTecno" alt="..." />
               <div className="fondoBar">
                 {" "}
-                <div className="barraPostgre">Advanced Beginner</div>
+                <div className="barraPostgre"><p>Advanced Beginner</p></div>
               </div>
             </li>
             <li className="row">
               <img src={seque} className="iconTecno" alt="..." />
               <div className="fondoBar">
                 {" "}
-                <div className="barraSeque">Advanced Beginner</div>
+                <div className="barraSeque"><p>Advanced Beginner</p></div>
               </div>
             </li>
             <li className="row">
               <img src={gitImg} className="iconTecno" alt="..." />{" "}
               <div className="fondoBar">
-                <div className="barraGit">Advanced Beginner</div>
+                <div className="barraGit"><p>Advanced Beginner</p></div>
               </div>
             </li>
           </ul>
@@ -109,17 +109,15 @@ export const AbourMe = () => {
         <div className="right">
           <p className="aboutTitle"> About me</p>
           <p className="aboutSubtitle">
-            I owned a health food store for more than 7 years. Over the years
-            you start to take care of yourself more and that's precisely why I
-            turned to selling supplements and sportswear. In the last 7 years, I
-            decided to focus on my other passions, such as programming. During
+           I'm  very autodidact and independent person, proof of this the health store i own for 7 years. <br/>
+            After that I decided to focus on my other passions, such as programming. During
             the pandemic I made the decision to turn my life around and give it
             a new focus, that's when I started taking HTML, CSS and JavaScript
             courses on Udemy, which allowed me to carry out several projects. I
             realized that I was passionate about programming and decided to go
-            deeper into programming and other technologies so I ended up
-            enrolling in the programming bootcamp "Soy Henry" where I perfected
-            and learned new technologie
+            deeper into this world so I ended up
+            enrolling in the programming bootcamp "Soy Henry" where I improved
+            and learned new technologies
           </p>
         </div>
       </div>

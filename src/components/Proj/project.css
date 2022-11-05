@@ -1,7 +1,4 @@
-@font-face {
-  font-family: DarkM;
-  src: url("../assets/DarkMagic-2O3w8.ttf");
-}
+
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 
 .backlProj {
@@ -21,8 +18,8 @@
 .titleCardP {
   margin-bottom: 0;
   text-align: center;
-  font-size: 5rem;
-  font-family: DarkM;
+  font-size: 7rem;
+  font-family: 'Bebas Neue', cursive;
   color: white;
   margin-bottom: 3rem;
 }
@@ -32,7 +29,7 @@
   font-size: 2rem;
   width: 100%;
   text-align: center;
-  font-family: DarkM;
+  font-family: 'Bebas Neue', cursive;
   color: white;
   position: absolute;
   top: 60%;

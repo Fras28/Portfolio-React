@@ -23,7 +23,7 @@ export const Certificates = () => {
         </svg>
       </div>
       <p className="titleCertf" id="credentials">
-        Certificates
+        Credentials
       </p>
       <div className="contCertf">
         <div className="cardCert">

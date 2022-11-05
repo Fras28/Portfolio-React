@@ -1,10 +1,7 @@
 /* * ============================== */
 /* * ===== CONTENEDOR IMAGEN ====== */
 /* * ============================== */
-@font-face {
-  font-family: DarkM;
-  src: url("../assets/DarkMagic-2O3w8.ttf");
-}
+
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 /* From uiverse.io by @alexruix */
 #inicio {
@@ -25,11 +22,31 @@
   margin-bottom: 5%;
   margin-top: 5%;
 }
+.cardPic{
+  width: 365px;
+  height: 365px;
+  background-color: #715959;
+  transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+               transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+               overflow: hidden;
+               border-bottom-left-radius: 50px;
+               border-top-right-radius: 50px;
+
+}
+.cardPic:hover{
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  transform: scale(1.05);
+  outline: solid black 5px;
+
+}
 /*==================== card left ===============*/
 
 .cardLeft {
   text-align: center;
-  font-family: DarkM;
+  font-family: 'Bebas Neue', cursive;
   font-size: 7rem;
   color: white;
   width: 45%;
@@ -37,26 +54,27 @@
 .contact {
   font-size: medium;
   font-family: "Vollkorn", serif;
-  text-decoration: underline;
   margin-bottom: 0%;
 }
 
 .subtitle {
   font-family: "Vollkorn", serif;
   font-size: 1.5rem;
-  margin-top: 10%;
+  margin-top: 3%;
   line-height: 2.5rem;
   text-align: start;
 }
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .titleCard {
   margin-bottom: 0;
   text-align: start;
   font-size: 5.5rem;
-  font-family: DarkM;
   color: white;
   width: 100%;
   overflow: hidden;
   white-space: pre;
+  font-family: 'Bebas Neue', cursive;
+
 }
 
 .contact {
@@ -69,14 +87,9 @@
 /*==================== card left ===============*/
 
 .imgInicio {
-  height: 550px;
-  border-radius: 48% 48% 1% 1%;
-  align-items: center;
+  width: 100%;
 }
-.contPic {
-  height: 550px;
-  width: 350px;
-}
+
 
 .myInfo {
   max-width: 100%;
@@ -90,9 +103,6 @@
 }
 a {
   text-decoration: none;
-}
-.imgInicio:hover {
-  background-position: center;
 }
 
 @media screen and (max-width: 900px) {

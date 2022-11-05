@@ -22,7 +22,6 @@ export const Nav = () => {
           </a>
           <a
             className="buttonText"
-            target="_blank"
             rel="noreferrer"
             href="mailto:fselvarolo28@gmail.com"
           >

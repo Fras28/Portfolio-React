@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import fotoPerfil from "../assets/Foto_CV.png";
+import fotoPerfil from "../assets/perfil s-fondo.png";
 import { useState } from "react";
 
 const Header = () => {
@@ -41,12 +41,14 @@ const Header = () => {
             </div>
             <div className="borde">
               {img.picShow === true ? (
-                <img
-                  onClick={showPic}
-                  className="imgInicio"
-                  src={fotoPerfil}
-                  alt="foto perfil"
-                />
+                <div class="cardPic">
+
+                  <img
+                    onClick={showPic}
+                    className="imgInicio"
+                    src={fotoPerfil}
+                    alt="foto perfil"/>
+                </div>
               ) : (
                 <svg
                   onClick={showPic}
