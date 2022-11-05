@@ -39,7 +39,8 @@
   border-bottom-right-radius: 50px;
   border-top-left-radius: 50px;
   transform: scale(1.05);
-  outline: solid black 5px;
+  outline: groove rgb(252, 252, 252) 5px;
+  background-color: #715959;
 
 }
 /*==================== card left ===============*/
