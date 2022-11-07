@@ -46,8 +46,8 @@ const infoPlus = ()=>{
                 applies to solve the problems that are presented to them, I
                 believe that every matter to be solved is a new experience that
                 we nourishes</p>}
+             <button onClick={infoPlus} className="buttonsInfo expandButton">+More info</button>
               </div>
-             <button onClick={infoPlus} className="plusInfo"><span>More info</span></button>
             </div>
             <div className="cardRight">
               {state.picShow === true ? (

@@ -25,7 +25,7 @@ export const Nav = () => {
             rel="noreferrer"
             href="mailto:fselvarolo28@gmail.com"
           >
-            <b className="outLineButton">Get in touch</b>
+            <b className="buttonsInfo">Get in touch</b>
           </a>
         </div>
       </div>

@@ -30,7 +30,7 @@
 .skills {
   text-align: center;
   font-family: 'Bebas Neue', cursive;
-  font-size: 7rem;
+  font-size: 5.5rem;
   color: white;
   height: 100%;
   padding-top: 0;
@@ -311,6 +311,7 @@ li {
   margin-bottom: 0%;
   margin-top: 0;
   text-align: center;
+  font-size: 5.5rem;
 }
 .aboutSubtitle {
   font-family: "Vollkorn", serif;

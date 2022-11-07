@@ -40,9 +40,6 @@
   filter: invert(1%);
 }
 
-.outLineButton {
-  border: solid 4px white;
-}
 .navbar b {
   padding: 9px 24px 8px 24px;
   border-radius: 4px;
