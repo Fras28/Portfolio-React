@@ -285,6 +285,7 @@ li {
 
 .skillLvl {
   color: white;
+  text-decoration: underline double;
 }
 
 .tecnolog {
