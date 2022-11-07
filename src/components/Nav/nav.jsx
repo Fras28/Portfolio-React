@@ -18,7 +18,7 @@ export const Nav = () => {
             <b>Projects</b>
           </a>
           <a className="buttonText" href="#credentials">
-            <b>Credenctials</b>
+            <b>Certificates</b>
           </a>
           <a
             className="buttonText"

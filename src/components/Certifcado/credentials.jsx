@@ -7,8 +7,8 @@ import "./credentials.css";
 
 export const Certificates = () => {
   return (
-    <div className="certCont">
-      <div className="divSep">
+    <div className="certCont" >
+      <div className="divSep" id="credentials">
         <svg
           width="671"
           height="50"
@@ -22,8 +22,8 @@ export const Certificates = () => {
           />
         </svg>
       </div>
-      <p className="titleCertf" id="credentials">
-        Credentials
+      <p className="titleCertf" >
+        Certificates
       </p>
       <div className="contCertf">
         <div className="cardCert">
