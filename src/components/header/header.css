@@ -112,7 +112,7 @@ a {
     flex-direction: column-reverse;
   }
   .cardPic{
-    height: 320px;
+    height: 350px;
     margin-bottom: 44.13px;
   }
 
@@ -127,7 +127,7 @@ a {
 
   }
   .imgInicio {
-    height: 20rem;
+    height: 22rem;
   }
   .subtitle {
        padding-left: 9%;
