@@ -50,7 +50,6 @@
 
 .navbar b:hover {
   background: hsla(0, 0%, 100%, 0.1);
-  text-decoration: none;
 }
 
 .contenedor {
