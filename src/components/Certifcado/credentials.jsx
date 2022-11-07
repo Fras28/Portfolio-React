@@ -8,7 +8,7 @@ import "./credentials.css";
 export const Certificates = () => {
   return (
     <div className="certCont" >
-      <div className="divSep" id="credentials">
+      <div className="divSep">
         <svg
           width="671"
           height="50"
@@ -22,7 +22,7 @@ export const Certificates = () => {
           />
         </svg>
       </div>
-      <p className="titleCertf" >
+      <p className="titleCertf" id="credentials" >
         Certificates
       </p>
       <div className="contCertf">
