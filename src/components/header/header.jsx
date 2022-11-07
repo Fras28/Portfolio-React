@@ -40,7 +40,7 @@ const infoPlus = ()=>{
               <div className="textHeader">
               <p className="subtitle1"> I always try to do my best and keep on learning in every project
                 where I am involved.</p>
-                {state.moreInfo===false?<p></p>:<p className="subtitle2"> I love solving problems and teaching
+                {state.moreInfo===false?<p className="subtitle2">...</p>:<p className="subtitle2"> I love solving problems and teaching
                 my colleagues what I have learned, just as I am also very
                 attracted to listening to the logic that the rest of the team
                 applies to solve the problems that are presented to them, I
