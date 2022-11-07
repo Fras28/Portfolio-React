@@ -32,7 +32,7 @@ export const AbourMe = () => {
       <div className="aboutMeContainer">
         <div className="left">
           <p className="skills">Skills</p>
-          <ul className="tencoUl">
+          <ul className="tecnoUl">
             <li className="row">
               <img src={htmlImg} className="iconTecno" alt="..." />
               <div className="fondoBar">

@@ -5,6 +5,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: transparent;
+  max-width: 100%;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 code {
@@ -37,5 +40,10 @@ html {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+@media screen and (max-width: 900px) {
+  body{
+ padding: 0;
   }
 }

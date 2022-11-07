@@ -4,16 +4,27 @@ import fotoPerfil from "../assets/perfil s-fondo.png";
 import { useState } from "react";
 
 const Header = () => {
-  const [img, setImg] = useState({
+
+
+const infoPlus = ()=>{
+
+    state.moreInfo === false?setState({...state,moreInfo:true}):setState({...state,moreInfo:false})
+  
+}
+
+  const [state, setState] = useState({
     picShow: false,
+    moreInfo:false
   });
 
   const showPic = () => {
-    img.picShow === false
-      ? setImg({
+    state.picShow === false
+      ? setState({
+        ...state,
           picShow: true,
         })
-      : setImg({
+      : setState({
+        ...state,
           picShow: false,
         });
   };
@@ -23,24 +34,23 @@ const Header = () => {
   return (
     <>
       <header id="inicio">
-        <div className="contenedorCard">
-          <div className="card">
+          <div className="cardH">
             <div className="cardLeft">
               <p className="titleCard">Full Stack Developer</p>
-              <p className="subtitle">
-                {/* I always try to do my best and keep on learning in every project
-                where I am involved. */}
-                I am a dedicated and demanding person with myself, I like
-                teamwork and cooperation. I love solving problems and teaching
+              <div className="textHeader">
+              <p className="subtitle1"> I always try to do my best and keep on learning in every project
+                where I am involved.</p>
+                {state.moreInfo===false?<p></p>:<p className="subtitle2"> I love solving problems and teaching
                 my colleagues what I have learned, just as I am also very
                 attracted to listening to the logic that the rest of the team
                 applies to solve the problems that are presented to them, I
                 believe that every matter to be solved is a new experience that
-                we nourishes
-              </p>
+                we nourishes</p>}
+              </div>
+             <button onClick={infoPlus} className="plusInfo"><span>More info</span></button>
             </div>
-            <div className="borde">
-              {img.picShow === true ? (
+            <div className="cardRight">
+              {state.picShow === true ? (
                 <div class="cardPic">
 
                   <img
@@ -77,7 +87,6 @@ const Header = () => {
               )}
             </div>
           </div>
-        </div>
       </header>
     </>
   );
