@@ -18,3 +18,9 @@
     display: none;
   }
 }
+
+.btnTop svg:hover path{
+  fill:#715959;
+  transition: fill .3s;
+
+}

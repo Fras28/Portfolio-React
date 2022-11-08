@@ -80,9 +80,20 @@
   padding-bottom: 0;
   text-align: start;
 }
+.myLinkss{
+  margin-top: 5%;
+}
+.myLinkss svg:hover path{
+  fill:#715959;
+  transition: fill .3s;
 
+}
 .plusText{
   margin-right: 8px
+}
+.cardPic:hover .textImg{
+  color: rgb(8, 8, 8);
+  transition: color 1.5s;
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .titleCard {
@@ -93,6 +104,11 @@
   width: 100%;
   white-space: pre;
   font-family: 'Bebas Neue', cursive;
+}
+.titleCard:hover{
+
+ color:#715959;
+  transition: color .5s;
 }
 
 .contact {
