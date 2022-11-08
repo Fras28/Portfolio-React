@@ -105,6 +105,17 @@ export const AbourMe = () => {
               </div>
             </li>
           </ul>
+          <p className="tecnolog">
+        LINK ⇛
+        <a
+          className="skillLvl"
+          href="https://icombine.net/knowledge-base/skill-levels"
+          target="_blank"
+          rel="noreferrer"
+        >
+          What Skill Level should I pick?
+        </a>
+      </p>
         </div>
         <div className="right">
           <p className="aboutTitle"> About me</p>
@@ -121,17 +132,7 @@ export const AbourMe = () => {
           </p>
         </div>
       </div>
-      <p className="tecnolog">
-        LINK ⇛
-        <a
-          className="skillLvl"
-          href="https://icombine.net/knowledge-base/skill-levels"
-          target="_blank"
-          rel="noreferrer"
-        >
-          What Skill Level should I pick?
-        </a>
-      </p>
+     
     </div>
   );
 };

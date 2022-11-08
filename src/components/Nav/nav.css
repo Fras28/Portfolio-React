@@ -18,7 +18,16 @@
   z-index: 100;
   white-space: nowrap;
   padding-top: .5rem;
-  background-color: #2F2F2F;
+
+  background-image: linear-gradient(
+    -45deg,
+    rgb(46,46,46) 0%,
+    rgb(45,45,45) 25%,
+    rgb(44,44,44) 50%,
+    rgb(43,43,43)75%,
+    rgb(42,42,42) 100%
+  );
+  animation: AnimateBG 20s ease infinite;
 }
 .navStart {
   padding-top: 0;
