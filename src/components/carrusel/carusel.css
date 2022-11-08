@@ -101,6 +101,9 @@
   height: 100%;
   margin: auto;
 }
+.underline{
+  text-decoration: underline 2px ;
+}
 
 @media (max-width: 900px) {
   .project {

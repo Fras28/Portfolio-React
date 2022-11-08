@@ -53,7 +53,7 @@ export const Carousel = () => {
               </div>
               <div className="backInfo1">
                 <p className="projectDate">10 / 10/ 22</p>
-                <p className="project"> Block Buster</p>
+                <p className="project underline"> Block Buster</p>
 
                 <p className="projectDet">
                   Led the creation of an OTT streaming platform/service for
