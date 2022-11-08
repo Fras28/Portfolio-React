@@ -80,6 +80,10 @@
   padding-bottom: 0;
   text-align: start;
 }
+
+.plusText{
+  margin-right: 8px
+}
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .titleCard {
   margin-bottom: 0;
