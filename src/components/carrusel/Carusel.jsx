@@ -81,8 +81,10 @@ export const Carousel = () => {
               <p className="project"> VideoGames</p>
 
               <p className="projectDet">
-                included: searches, filtering, ordering and creation or addition
-                of information
+                An information platform for video games Games can be added to
+                our database with the possibility of adding more. This included
+                the following functions: searching, filtering, ordering,
+                creating, and adding information.
               </p>
 
               <p className="projectDet1">
@@ -102,8 +104,10 @@ export const Carousel = () => {
               <p className="projectDate">25 / 8 / 22</p>
               <p className="project">Countries</p>
               <p className="projectDet">
-                includes: searches, filtering, ordering and creation or addition
-                of information
+                In this project, the objective was to obtain relevant
+                information from all countries in order to provide it to users.
+                This included the following functions: searching, filtering,
+                ordering creating, and adding activities to the countries.
               </p>
 
               <p className="projectDet1">
