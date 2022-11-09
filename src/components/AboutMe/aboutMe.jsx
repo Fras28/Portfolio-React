@@ -63,13 +63,13 @@ export const AbourMe = () => {
               <img src={jsImg} className="iconTecno" alt="..." />
               <div className="fondoBar">
                 {" "}
-                <div className="barraJS"><p>Competent</p></div>
+                <div className="barraJS"><p>Proficient</p></div>
               </div>
             </li>
             <li className="row">
               <img src={bootImg} className="iconTecno" alt="..." />{" "}
               <div className="fondoBar">
-                <div className="barraBoot">Competent</div>
+                <div className="barraBoot">Proficient</div>
               </div>
             </li>
             <li className="row">
