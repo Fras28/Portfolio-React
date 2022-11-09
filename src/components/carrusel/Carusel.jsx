@@ -53,11 +53,12 @@ export const Carousel = () => {
               </div>
               <div className="backInfo1">
                 <p className="projectDate">10 / 10/ 22</p>
-                <p className="project underline"> Block Buster</p>
+                <p className="project underline acces"> Block Buster</p>
 
                 <p className="projectDet">
                   Led the creation of an OTT streaming platform/service for
-                  online movies and series.
+                  online movies and series.<br/>
+                  Responsible for designing and creating the backend, landing page, home page and about us
                 </p>
                 <p className="projectDet1">
                   <b>Role: </b> Desing & Development.
@@ -72,13 +73,18 @@ export const Carousel = () => {
             </div>
           </a>
           <div className="carousel-item">
+          <a
+            href="https://github.com/Fras28/VideoGamesUniverse"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="containerPic">
               {" "}
               <img src={GamesImg} className="d-block " alt="..." />
             </div>
             <div className="backInfo2">
               <p className="projectDate">25 / 7 / 22</p>
-              <p className="project"> VideoGames</p>
+              <p className="project underline acces"> VideoGames</p>
 
               <p className="projectDet">
                 An information platform for video games Games can be added to
@@ -91,18 +97,24 @@ export const Carousel = () => {
                 <b>Role: </b> Desing & Development.
               </p>
               <p className="projectDet2">
-                <b>Made With: </b>JavaScript, React, Redux, CSS, HTML5, Express,
+                <b>Made With: </b>JavaScript, React, Redux, CSS, HTML5,API Rest, Express,
                 Sequalize, Node, SQL{" "}
               </p>
             </div>
+            </a>
           </div>
           <div className="carousel-item">
+          <a
+            href="https://github.com/Fras28/Info-Countries"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="containerPic">
               <img src={CountryImg} className="d-block" alt="..." />
             </div>
             <div className="backInfo3">
               <p className="projectDate">25 / 8 / 22</p>
-              <p className="project">Countries</p>
+              <p className="project underline acces">Countries-Info</p>
               <p className="projectDet">
                 In this project, the objective was to obtain relevant
                 information from all countries in order to provide it to users.
@@ -114,10 +126,11 @@ export const Carousel = () => {
                 <b>Role: </b> Desing & Development.
               </p>
               <p className="projectDet2">
-                <b>Made With: </b>JavaScript, React, Redux, CSS, HTML5, Express,
+                <b>Made With: </b>JavaScript, React, Redux, CSS, HTML5,API Rest, Express,
                 Sequalize, Node, SQL{" "}
               </p>
             </div>
+            </a>
           </div>
           <div className="carousel-item">
             <div className="containerPic">

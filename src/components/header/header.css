@@ -86,8 +86,9 @@
 .myLinkss svg:hover path{
   fill:#715959;
   transition: fill .3s;
-
 }
+
+
 .plusText{
   margin-right: 8px
 }

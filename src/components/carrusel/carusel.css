@@ -104,6 +104,10 @@
 .underline{
   text-decoration: underline 2px ;
 }
+.carousel-item:hover .underline {
+  color:#715959;
+  transition: fill .3s;
+}
 
 @media (max-width: 900px) {
   .project {
