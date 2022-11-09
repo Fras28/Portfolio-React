@@ -71,6 +71,14 @@
   line-height: 2rem;
   text-align: start;
   margin-bottom: 0;
+
+}
+.ubi{
+  font-family: "Vollkorn", serif;
+  font-size: 1rem;
+  margin-top: 2%;
+  text-align: center;
+  color: white;
 }
 .subtitle2 {
   font-family: "Vollkorn", serif;
