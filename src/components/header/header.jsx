@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import fotoPerfil from "../assets/perfil s-fondo.png";
+import fotoPerfil from "../assets/picNew1.png";
 import { useState } from "react";
 
 const Header = () => {
