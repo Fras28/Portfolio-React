@@ -71,18 +71,25 @@ li {
 }
 .barraHTML {
   width: 20%;
-  background-color: orangered;
+  background-color: #ff4500;
   vertical-align: middle;
   text-align: left;
   font-family: "Vollkorn", serif;
   font-size: 1rem;
-  color: white;
+  color: black;
   padding-top: 0.3rem;
   padding-left: 1rem;
   height: 1rem;
   box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
   margin-right: 15px;
-
+  background-image: linear-gradient(
+    -45deg,
+    #ef4203 0%,
+    #ff4a08 25%,
+    #fd6933 51%,
+    #fc8f68 1000%
+  );
+  animation: AnimateBG 5s ease infinite;
 }
 .aboutMe:hover .barraHTML {
   width: 80%;
@@ -100,6 +107,14 @@ li {
   height: 1rem;
   padding-left: 1rem;
   box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+  background-image: linear-gradient(
+    -45deg,
+    #0b34da 0%,
+    #254bdd 25%,
+    #3a5ce0 51%,
+    #5670d5 1000%
+  );
+  animation: AnimateBG 5s ease infinite;
 }
 
 .aboutMe:hover .barraCSS {
@@ -120,6 +135,14 @@ li {
   height: 1rem;
   padding-left: 1rem;
   box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+  background-image: linear-gradient(
+    -45deg,
+    #5ed3f3 0%,
+    #76dcf9 25%,
+    #8fe3fa 51%,
+    #aee9f9 1000%
+  );
+  animation: AnimateBG 5s ease infinite;
 }
 
 .aboutMe:hover .barraReact {
@@ -139,8 +162,15 @@ li {
   height: 1rem;
   padding-left: 1rem;
   box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+  background-image: linear-gradient(
+    -45deg,
+    #662eba 0%,
+    #7649bb 25%,
+    #8561bb 51%,
+    #967bbe 100%
+  );
+  animation: AnimateBG 5s ease infinite;
 }
-
 .aboutMe:hover .barraRedux {
   width: 70%;
   transition: width 1.7s ease-in-out;
@@ -158,6 +188,14 @@ li {
   height: 1rem;
   padding-left: 1rem;
   box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+  background-image: linear-gradient(
+    -45deg,
+    #ffe100 0%,
+    #efd81d 25%,
+    #e4d671 51%,
+    #fff4a1 100%
+  );
+  animation: AnimateBG 5s ease infinite;
 }
 
 .aboutMe:hover .barraJS {
@@ -177,6 +215,14 @@ li {
   height: 1rem;
   padding-left: 1rem;
   box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+  background-image: linear-gradient(
+    -45deg,
+    #7200fe 0%,
+    #7411f1 25%,
+    #8836ed 51%,
+    #9a53f1  100%
+  );
+  animation: AnimateBG 5s ease infinite;
 }
 
 .aboutMe:hover .barraBoot {
@@ -197,10 +243,19 @@ li {
   height: 1rem;
   padding-left: 1rem;
   box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+  background-image: linear-gradient(
+    -45deg,
+    #8ee111 0%,
+    #8dcf2a 25%,
+    #82aa46 51%,
+    #a3c86c  100%
+  );
+  animation: AnimateBG 1s ease infinite;
 }
 
 .aboutMe:hover .barraNode {
   width: 60%;
+  font-weight: 500;
   transition: width 1.7s ease-in-out;
 }
 
@@ -216,11 +271,21 @@ li {
   height: 1rem;
   padding-left: 1rem;
   box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+  background-image: linear-gradient(
+    -45deg,
+    #1b75d5 0%,
+    #2f74c0 25%,
+    #4580be 51%,
+    #5d8dc1  100%
+  );
+  animation: AnimateBG 1s ease infinite;
 }
 
 .aboutMe:hover .barraTS {
   width: 70%;
-  transition: width 1.7s ease-in-out;
+  color: black;
+  font-weight: 500;
+  transition: width 1.7s ease-in-out,color 1.7s;
 }
 
 .barraPostgre {
@@ -236,11 +301,21 @@ li {
   height: 1rem;
   padding-left: 1rem;
   box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+  background-image: linear-gradient(
+    -45deg,
+    #14598e 0%,
+    #31648c 25%,
+    #5f8bba 51%,
+    #759cc6  100%
+  );
+  animation: AnimateBG 1s ease infinite;
 }
 
 .aboutMe:hover .barraPostgre {
   width: 65%;
-  transition: width 1.7s ease-in-out;
+  color: black;
+  font-weight: 500;
+  transition: width 1.7s ease-in-out,color 1.7s;
 }
 
 .barraSeque {
@@ -256,6 +331,14 @@ li {
   height: 1rem;
   padding-left: 1rem;
   box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+  background-image: linear-gradient(
+    -45deg,
+    #1540ef 0%,
+    #254bdd 25%,
+    #3d5ddd 51%,
+    #4c68da  100%
+  );
+  animation: AnimateBG 1s ease infinite;
 }
 
 .aboutMe:hover .barraSeque {
@@ -276,6 +359,14 @@ li {
   height: 1rem;
   padding-left: 1rem;
   box-shadow: 2px 2px 6px #727272, -2px -2px 6px #727272;
+  background-image: linear-gradient(
+    -45deg,
+    #000000 0%,
+    #1d1d1d 25%,
+    #3d3d3d 51%,
+    #2e2e2e  100%
+  );
+  animation: AnimateBG 1s ease infinite;
 }
 
 .aboutMe:hover .barraGit {
