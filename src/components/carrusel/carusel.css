@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 .d-block {
   width: 100%;
-  max-height: 400px;
+  min-height: 400px;
   margin: auto;
   object-fit: fill;
   margin-bottom: 0;
@@ -31,9 +31,11 @@
 .backInfo1,
 .backInfo2,
 .backInfo3,
-.backInfo4 {
+.backInfo4,
+.backInfo5 {
   background-color: rgb(0, 20, 38);
   width: 80%;
+  min-height: 320px;
   margin: auto;
   border-left: solid white;
   border-right: solid white;
@@ -49,6 +51,11 @@
 .backInfo4 {
   background-color: #060709;
 }
+.backInfo5{
+  background-color: #727272;
+}
+
+
 .project {
   font-family: 'Bebas Neue', cursive;
   color: rgb(255, 255, 255);
@@ -135,7 +142,8 @@
   .backInfo1,
 .backInfo2,
 .backInfo3,
-.backInfo4{
+.backInfo4,
+.backInfo5{
   width: 100%;
   min-height: 202px;
 }

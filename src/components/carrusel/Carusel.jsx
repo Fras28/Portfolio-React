@@ -91,7 +91,7 @@ export const Carousel = () => {
               {" "}
               <img src={Bfood} className="d-block " alt="..." />
             </div>
-            <div className="backInfo2">
+            <div className="backInfo5">
               <p className="projectDate">20 / 11 / 22</p>
               <p className="project underline acces"> Bahia Blanca Food</p>
 
