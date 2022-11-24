@@ -3,6 +3,7 @@ import BBimg from "../assets/bbPic.png";
 import GamesImg from "../assets/imgVideogames.png";
 import CountryImg from "../assets/Countries.png";
 import SvalyImg from "../assets/svaly1.jpg";
+import Bfood from "../assets/bahia food.png"
 import "./carusel.css";
 
 export const Carousel = () => {
@@ -40,8 +41,14 @@ export const Carousel = () => {
             data-bs-slide-to="3"
             aria-label="Slide 4"
           ></button>
+            <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
         </div>
-        <div className="carousel-inner">
+        <div className="carousel-inner">          
           <a
             href="https://blockbuster-pf.vercel.app/"
             target="_blank"
@@ -52,7 +59,7 @@ export const Carousel = () => {
                 <img src={BBimg} className="d-block" alt="..." />
               </div>
               <div className="backInfo1">
-                <p className="projectDate">10 / 10/ 22</p>
+                <p className="projectDate">10 / 10 / 22</p>
                 <p className="project underline acces"> Block Buster</p>
 
                 <p className="projectDet">
@@ -72,6 +79,41 @@ export const Carousel = () => {
               </div>
             </div>
           </a>
+          
+
+          <div className="carousel-item">
+          <a
+            href="https://bahiablanca-restos.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="containerPic">
+              {" "}
+              <img src={Bfood} className="d-block " alt="..." />
+            </div>
+            <div className="backInfo2">
+              <p className="projectDate">20 / 11 / 22</p>
+              <p className="project underline acces"> Bahia Blanca Food</p>
+
+              <p className="projectDet">
+              Application for restaurants/bars/coffee shops. In this application, the letters of each of the added businesses appear. You can also see each of the variants that I offer depending on the taste of each client. Each letter has a shopping cart and the option to place an order through it
+              </p>
+
+              <p className="projectDet1">
+                <b>Role: </b> Desing & Development.
+              </p>
+              <p className="projectDet2">
+                <b>Made With: </b>JavaScript, React, Redux-Toolkit, CSS, HTML5
+              </p>
+            </div>
+            </a>
+          </div>
+
+
+
+
+
+
           <div className="carousel-item">
           <a
             href="https://github.com/Fras28/VideoGamesUniverse"
