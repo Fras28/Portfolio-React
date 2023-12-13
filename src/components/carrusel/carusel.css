@@ -27,32 +27,52 @@
 .carousel-inner {
   margin: auto;
 }
-
+.backInfo0,
 .backInfo1,
 .backInfo2,
 .backInfo3,
 .backInfo4,
 .backInfo5 {
-  background-color: rgb(0, 20, 38);
   width: 80%;
   min-height: 320px;
   margin: auto;
-  border-left: solid white;
-  border-right: solid white;
-  border-bottom: solid white;
   margin-top: 0;
+}
+.backInfo0{
+  background-color: #242661;
+  border-left: solid #80ffff;
+  border-right: solid #80ffff;
+  border-bottom: solid #80ffff;
+}
+.backInfo1{
+  background-color: rgb(0, 20, 38);
+  border-left: solid#CAA038;
+  border-right: solid#CAA038;
+  border-bottom: solid#CAA038;
 }
 .backInfo2 {
   background-color: #1a1e40;
+  border-left: solid #59090B;
+  border-right: solid #59090B;
+  border-bottom: solid #59090B;
 }
 .backInfo3 {
   background-color: #191262;
+  border-left: solid #2E558B;
+  border-right: solid #2E558B;
+  border-bottom: solid #2E558B;
 }
 .backInfo4 {
   background-color: #060709;
+  border-left: solid white;
+  border-right: solid white;
+  border-bottom: solid white;
 }
 .backInfo5{
-  background-color: #727272;
+  background-color: #441E07;
+  border-left: solid #CAA038;
+  border-right: solid #CAA038;
+  border-bottom: solid #CAA038;
 }
 
 

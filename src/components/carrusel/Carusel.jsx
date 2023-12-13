@@ -4,6 +4,7 @@ import GamesImg from "../assets/imgVideogames.png";
 import CountryImg from "../assets/Countries.png";
 import SvalyImg from "../assets/svaly1.jpg";
 import Bfood from "../assets/bahia food.png"
+import Morton from "../assets/Morton.png"
 import "./carusel.css";
 
 export const Carousel = () => {
@@ -18,7 +19,7 @@ export const Carousel = () => {
           <button
             type="button"
             data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
+            data-bs-slide-to="1"
             className="active"
             aria-current="true"
             aria-label="Slide 1"
@@ -47,14 +48,49 @@ export const Carousel = () => {
             data-bs-slide-to="4"
             aria-label="Slide 5"
           ></button>
+              <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
         </div>
         <div className="carousel-inner">          
-          <a
+        <a
             href="https://blockbuster-pf.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
             <div className="carousel-item active">
+              <div className="containerPic">
+                <img src={Morton} className="d-block" alt="..." />
+              </div>
+              <div className="backInfo0">
+                <p className="projectDate">15 / 12 / 22</p>
+                <p className="project underline acces"> Morton Inovation</p>
+
+                <p className="projectDet">
+                landing page para Morton Soluciones empresa de soluciones tecnologicas para clientes gastronomicos
+                </p>
+                <p className="projectDet1">
+                  <b>Role: </b> Desing & Development.
+                </p>
+                <p className="projectDet2">
+                  <b>Made With: </b> JavaScript, React, Redux-Toolkit, 
+                </p>
+              </div>
+            </div>
+          </a>
+
+
+
+
+          <a
+            href="https://blockbuster-pf.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="carousel-item">
               <div className="containerPic">
                 <img src={BBimg} className="d-block" alt="..." />
               </div>
